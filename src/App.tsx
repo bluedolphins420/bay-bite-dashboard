@@ -11,42 +11,116 @@ import { allSpecies, dailyReport, regions, researchSources, safetyColor, scoreCo
 type SpotMode = 'All' | 'Favorites' | 'Surf' | 'Pier/Jetty' | 'Bay Shore' | 'Hazard Watch';
 type SortMode = 'score' | 'name' | 'region';
 
-function makeIcon(spot: Spot) {
+function makeIcon(spot: Spot, isSelected: boolean) {
   const color = scoreColor(spot.score);
+  const size = isSelected ? 28 : 20;
+  const stroke = isSelected ? '#ffffff' : 'rgba(255,255,255,0.75)';
+  const shadow = isSelected ? `0 0 0 3px rgba(103,232,249,0.9), 0 0 30px ${color}` : `0 0 0 2px ${stroke}, 0 0 20px ${color}`;
+
   return L.divIcon({
     className: '',
-    html: `<div class="marker-dot" style="color:${color};background:${color}"></div>`,
-    iconSize: [24, 24],
-    iconAnchor: [12, 12],
-    popupAnchor: [0, -10]
+    html: `<div class="marker-dot" style="width:${size}px;height:${size}px;color:${color};background:${color};border-color:${stroke};box-shadow:${shadow}"></div>`,
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    popupAnchor: [0, -size / 2]
   });
 }
 
-function FlyToSpot({ spot }: { spot: Spot }) {
+function MapController({ selectedSpot, visibleSpots }: { selectedSpot: Spot; visibleSpots: Spot[] }) {
   const map = useMap();
+
+  // Resize fix for Leaflet container
   useEffect(() => {
-    map.flyTo([spot.lat, spot.lng], 10, { duration: 0.8 });
-  }, [map, spot.id, spot.lat, spot.lng]);
+    const timer = setTimeout(() => map.invalidateSize(), 100);
+    return () => clearTimeout(timer);
+  }, [map]);
+
+  // Smooth pan/zoom to selected spot without resetting view if already in frame
+  useEffect(() => {
+    if (!selectedSpot) return;
+    const currentZoom = map.getZoom();
+    const targetZoom = Math.max(currentZoom, 11);
+    map.flyTo([selectedSpot.lat, selectedSpot.lng], targetZoom, {
+      duration: 0.6,
+      easeLinearity: 0.25
+    });
+  }, [map, selectedSpot.id]);
+
+  // Auto-fit bounds when filter changes significantly
+  useEffect(() => {
+    if (!visibleSpots.length) return;
+    if (visibleSpots.length === spots.length) return; // Don't reset if full list
+
+    const bounds = L.latLngBounds(visibleSpots.map(s => [s.lat, s.lng]));
+    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 13, animate: true, duration: 0.6 });
+  }, [map, visibleSpots.length]);
+
   return null;
 }
 
-function ClusteredMarkers({ visibleSpots, onSelect }: { visibleSpots: Spot[]; onSelect: (id: string) => void }) {
+function ClusteredMarkers({
+  visibleSpots,
+  selectedId,
+  onSelect
+}: {
+  visibleSpots: Spot[];
+  selectedId: string;
+  onSelect: (id: string) => void;
+}) {
   const map = useMap();
+
   useEffect(() => {
-    const cluster = L.markerClusterGroup({
+    const clusterGroup = L.markerClusterGroup({
       showCoverageOnHover: false,
-      maxClusterRadius: 42,
+      maxClusterRadius: 35,
       spiderfyOnMaxZoom: true,
+      zoomToBoundsOnClick: true,
+      animate: true,
+      iconCreateFunction: (cluster) => {
+        const count = cluster.getChildCount();
+        return L.divIcon({
+          html: `<div class="custom-cluster">${count}</div>`,
+          className: '',
+          iconSize: [36, 36]
+        });
+      }
     });
+
     visibleSpots.forEach((spot) => {
-      const marker = L.marker([spot.lat, spot.lng], { icon: makeIcon(spot) });
-      marker.bindPopup(`<div class="popup"><h3>${spot.name}</h3><p><strong>Score:</strong> ${spot.score}/100 · ${spot.safety}</p><p><strong>Window:</strong> ${spot.bestWindow}</p><p><strong>Species:</strong> ${spot.species.join(', ')}</p></div>`);
-      marker.on('click', () => onSelect(spot.id));
-      cluster.addLayer(marker);
+      const isSelected = spot.id === selectedId;
+      const marker = L.marker([spot.lat, spot.lng], { icon: makeIcon(spot, isSelected) });
+
+      const popupContent = `
+        <div class="popup-card">
+          <div class="popup-header">
+            <strong>${spot.name}</strong>
+            <span class="popup-score" style="color:${scoreColor(spot.score)}">${spot.score}</span>
+          </div>
+          <div class="popup-meta">${spot.region} · ${spot.type}</div>
+          <div class="popup-window">⏱ ${spot.bestWindow}</div>
+          <div class="popup-species">${spot.species.slice(0, 4).map(s => `<span class="popup-tag">${s}</span>`).join('')}</div>
+        </div>
+      `;
+
+      marker.bindPopup(popupContent, {
+        closeButton: false,
+        className: 'leaflet-popup-custom'
+      });
+
+      marker.on('click', () => {
+        onSelect(spot.id);
+      });
+
+      clusterGroup.addLayer(marker);
     });
-    map.addLayer(cluster);
-    return () => { map.removeLayer(cluster); };
-  }, [map, visibleSpots, onSelect]);
+
+    map.addLayer(clusterGroup);
+
+    return () => {
+      map.removeLayer(clusterGroup);
+    };
+  }, [map, visibleSpots, selectedId, onSelect]);
+
   return null;
 }
 
@@ -299,13 +373,13 @@ function App() {
             ))}
           </div>
           <div className="map-wrap">
-            <MapContainer center={[37.73, -122.36]} zoom={9} scrollWheelZoom>
+            <MapContainer center={[37.73, -122.36]} zoom={9} scrollWheelZoom style={{ height: '100%', width: '100%' }}>
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
-              <ClusteredMarkers visibleSpots={filteredSpots} onSelect={setSelectedId} />
-              <FlyToSpot spot={selected} />
+              <ClusteredMarkers visibleSpots={filteredSpots} selectedId={selected.id} onSelect={setSelectedId} />
+              <MapController selectedSpot={selected} visibleSpots={filteredSpots} />
             </MapContainer>
           </div>
         </div>
@@ -423,7 +497,6 @@ function App() {
           </div>
         </section>
 
-
         <section className="card detail-panel utility-panel">
           <div className="detail-body">
             <div className="card-title"><ShieldAlert size={20} /> Regulation & safety layer</div>
@@ -509,7 +582,7 @@ function App() {
           </div>
         </section>
       </section>
-      <p className="footer-note">Prototype data is researched + mock-scored. Always check live CDFW rules, pier closures, swell, and local safety before fishing.</p>
+      <p className="footer-note">Prototype data is researched + mock-scored. Always check live CDFW rules, pier closures, swell, and local signage before fishing.</p>
     </main>
   );
 }
