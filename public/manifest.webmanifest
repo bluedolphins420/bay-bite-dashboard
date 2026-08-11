@@ -1,0 +1,16 @@
+{
+  "name": "Bay Bite Command",
+  "short_name": "Bay Bite",
+  "description": "Greater Bay Area fishing intelligence dashboard",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061015",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
