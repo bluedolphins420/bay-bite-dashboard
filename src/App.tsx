@@ -43,7 +43,7 @@ function MapController({ selectedSpot, visibleSpots }: { selectedSpot: Spot; vis
       duration: 0.6,
       easeLinearity: 0.25
     });
-  }, [map, selectedSpot.id]);
+  }, [map, selectedSpot]);
 
   useEffect(() => {
     if (!visibleSpots.length) return;
@@ -51,7 +51,7 @@ function MapController({ selectedSpot, visibleSpots }: { selectedSpot: Spot; vis
 
     const bounds = L.latLngBounds(visibleSpots.map(s => [s.lat, s.lng]));
     map.fitBounds(bounds, { padding: [40, 40], maxZoom: 13, animate: true, duration: 0.6 });
-  }, [map, visibleSpots.length]);
+  }, [map, visibleSpots]);
 
   return null;
 }
@@ -231,7 +231,7 @@ function useLiveTelemetry(spot: Spot): LiveTelemetry {
     });
 
     return () => controller.abort();
-  }, [spot.id, spot.tideStation]);
+  }, [spot.id, spot.tideStation, spot.conditions.wind, spot.conditions.swell]);
 
   return telemetry;
 }
