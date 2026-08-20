@@ -1,0 +1,11 @@
+.field-proof { margin-top: 16px; }
+.compact-source-grid { margin-top: 12px; max-height: 190px; overflow: auto; }
+.evidence-list { display: grid; gap: 8px; }
+.evidence-list .tactic { align-items: flex-start; }
+.evidence-list small, .sensor-grid small { display: block; margin-top: 5px; line-height: 1.45; color: var(--muted); }
+.sensor-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 640px) {
+  .sensor-grid { grid-template-columns: 1fr; }
+  .field-proof { padding: 14px; }
+  .compact-source-grid { max-height: 150px; }
+}

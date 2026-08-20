@@ -54,6 +54,29 @@ conditions(id, spot_id, timestamp, wind, swell_height, swell_period, water_temp,
 
 ## Live API integrations
 
+### P0 correction — true live ocean command center
+
+User feedback on 2026-08-13 identified that the Conditions Board's repeating Sonoma result is not useful as a live condition. The implementation confirms it is a static all-time average of researched model scores, not a sensor-derived regional comparison.
+
+Required behavior:
+- Replace global `Model-ranked region` with **Selected water live conditions** driven by the selected spot.
+- Never label a static/model ranking as a live condition. Separate `Observed`, `Forecast`, `Satellite context`, and `Fishing model` visually and in the data schema.
+- Map every spot to the nearest appropriate tide, current, buoy/wave, weather-grid, and water-quality source; show station ID/name, distance, observation time, age, and source health for every reading.
+- Use explicit freshness states: live, delayed, stale, partial, and unavailable. Stale or distant sensors must not silently look local.
+- Refresh useful sensor feeds on their native cadence, targeted at 10–15 minutes where appropriate; cache server-side, deduplicate shared stations, honor API throttling, and retain last-known-good data with its age visible.
+- Pull the maximum **useful** data, not every available field: tide level/phase/trend, current speed/direction and slack, significant wave height, swell height/period/direction, wind-wave height/period/direction, dominant and average periods, wave direction/steepness, wind/gust/direction, air/water temperature, pressure/trend, visibility, salinity/conductivity where available, marine forecast and alerts, satellite SST/chlorophyll/upwelling context, HAB/health advisories, and source outages.
+- Compute any live fishing score only from documented inputs and expose the factors. If coverage is insufficient, display `Insufficient live coverage` rather than a score.
+- Add 24-hour sparklines and 48–72 hour forecast windows rather than showing only a latest value.
+- Separate data refresh from application deployment. The sensor-refresh unit must publish validated data atomically and must not copy the entire application `dist` tree into production.
+
+Confirmed defects to fix under TDD:
+- `bestRegion` in `src/App.tsx` is a static average of `spots[].score`, so Sonoma can remain permanently selected.
+- NDBC realtime files use uppercase headers (`WDIR`, `WSPD`, `WVHT`, `DPD`, `APD`, `MWD`, `PRES`, `ATMP`, `WTMP`); `parseBuoy()` currently queries lowercase keys and therefore drops most wave/wind fields.
+- Parsed NDBC metric values are stored under misleading `*Ft` / `*F` names before conversion.
+- Sixteen logical tide regions reuse only three offshore buoys, including inland Bay stations mapped to offshore ocean buoys; the UI needs distance/representativeness disclosure rather than implied locality.
+- Station-level output can be marked globally `live` despite individual source errors; aggregate and per-field health need independent calculation.
+- Current refresh cadence is hourly plus random delay, not near-live.
+
 Priority order:
 1. NOAA CO-OPS tides/currents: `api.tidesandcurrents.noaa.gov`
    - SF/Golden Gate example station: `9414290`
@@ -141,7 +164,7 @@ Implemented in current pass:
 
 Recommended next functionality:
 1. **Marker clustering** — group dense SF/Peninsula markers into numbered clusters for easier phone use.
-2. **Trip Builder** — choose 3 favorite spots, target species, start time, then generate a route + tackle checklist.
+2. **Trip Builder** — deferred; removed from the current UI to keep spot intelligence focused.
 3. **Live NOAA integration** — replace mock tide series with nearest NOAA station prediction per selected spot.
 4. **NDBC/NWS conditions** — real swell/wind/forecast cards and automatic hazard scoring.
 5. **Regulation layer** — show public-pier/no-license notes, license-required shore spots, species closures, MPA warnings, crab/sturgeon status.

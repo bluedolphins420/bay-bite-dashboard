@@ -1,0 +1,3384 @@
+{
+  "schemaVersion": 4,
+  "generatedAt": "2026-08-14T02:02:51.100Z",
+  "status": "partial",
+  "healthCounts": {
+    "partial": 24,
+    "unavailable": 2
+  },
+  "totalStations": 26,
+  "sources": [
+    "NOAA CO-OPS",
+    "NOAA NDBC",
+    "CDIP via NOAA NDBC"
+  ],
+  "stations": {
+    "San Francisco": {
+      "key": "San Francisco",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T01:32:00.000Z",
+              "value": 0.578,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T07:41:00.000Z",
+              "value": 1.94,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:06:00.000Z",
+              "value": -0.129,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T20:59:00.000Z",
+              "value": 1.722,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T02:24:00.000Z",
+              "value": 0.491,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T08:32:00.000Z",
+              "value": 1.785,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T14:43:00.000Z",
+              "value": 0.043,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T21:33:00.000Z",
+              "value": 1.758,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.707,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "observed",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "speedMps": 6.9,
+          "gustMps": 8.8,
+          "directionDeg": 247,
+          "directionCardinal": "WSW",
+          "unit": "m/s"
+        },
+        "buoy": {
+          "kind": "observed",
+          "stationId": "46026",
+          "stationName": "SAN FRANCISCO, 18 NM west of San Francisco",
+          "observedAt": "2026-08-14T01:30:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 33,
+          "freshness": "delayed",
+          "lastKnownGood": false,
+          "environment": "offshore",
+          "platform": "offshore regional",
+          "warning": "Regional offshore observation; not measured at this beach or protected shoreline.",
+          "unit": "metric",
+          "windDirectionDeg": 270,
+          "windSpeedMps": 2,
+          "gustMps": 3,
+          "pressureHpa": 1012.7,
+          "waterTempC": 14.8
+        }
+      },
+      "errors": []
+    },
+    "Golden Gate": {
+      "key": "Golden Gate",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T01:32:00.000Z",
+              "value": 0.578,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T07:41:00.000Z",
+              "value": 1.94,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:06:00.000Z",
+              "value": -0.129,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T20:59:00.000Z",
+              "value": 1.722,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T02:24:00.000Z",
+              "value": 0.491,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T08:32:00.000Z",
+              "value": 1.785,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T14:43:00.000Z",
+              "value": 0.043,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T21:33:00.000Z",
+              "value": 1.758,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.707,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "observed",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "speedMps": 6.9,
+          "gustMps": 8.8,
+          "directionDeg": 247,
+          "directionCardinal": "WSW",
+          "unit": "m/s"
+        },
+        "buoy": {
+          "kind": "observed",
+          "stationId": "46026",
+          "stationName": "SAN FRANCISCO, 18 NM west of San Francisco",
+          "observedAt": "2026-08-14T01:30:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 33,
+          "freshness": "delayed",
+          "lastKnownGood": false,
+          "environment": "offshore",
+          "platform": "offshore regional",
+          "warning": "Regional offshore observation; not measured at this beach or protected shoreline.",
+          "unit": "metric",
+          "windDirectionDeg": 270,
+          "windSpeedMps": 2,
+          "gustMps": 3,
+          "pressureHpa": 1012.7,
+          "waterTempC": 14.8
+        }
+      },
+      "errors": []
+    },
+    "Half Moon Bay": {
+      "key": "Half Moon Bay",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414131",
+          "stationName": "Pillar Point Harbor, Half Moon Bay",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T00:48:00.000Z",
+              "value": 0.535,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T06:45:00.000Z",
+              "value": 1.902,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T13:32:00.000Z",
+              "value": -0.113,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T19:58:00.000Z",
+              "value": 1.625,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T01:42:00.000Z",
+              "value": 0.462,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T07:37:00.000Z",
+              "value": 1.734,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T14:08:00.000Z",
+              "value": 0.069,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T20:32:00.000Z",
+              "value": 1.664,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "No active observed water-level sensor verified for this selected water."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "observed",
+          "stationId": "46012",
+          "stationName": "HALF MOON BAY, 24 NM SSW of San Francisco",
+          "observedAt": "2026-08-14T01:00:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 63,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "environment": "offshore",
+          "platform": "offshore USV/regional",
+          "warning": "Regional offshore observation; not measured at this beach or protected shoreline.",
+          "unit": "metric",
+          "windDirectionDeg": 230,
+          "windSpeedMps": 6,
+          "gustMps": 7,
+          "waveHeightM": 1.3,
+          "dominantPeriodSec": 8,
+          "pressureHpa": 1013.1,
+          "airTempC": 15.4,
+          "waterTempC": 15.6
+        }
+      },
+      "errors": []
+    },
+    "Bodega Harbor": {
+      "key": "Bodega Harbor",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9415625",
+          "stationName": "Bodega Harbor entrance",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T01:16:00.000Z",
+              "value": 0.608,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T07:03:00.000Z",
+              "value": 1.88,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T13:50:00.000Z",
+              "value": -0.099,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T20:21:00.000Z",
+              "value": 1.662,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T02:08:00.000Z",
+              "value": 0.521,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T07:54:00.000Z",
+              "value": 1.725,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T14:27:00.000Z",
+              "value": 0.073,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T20:55:00.000Z",
+              "value": 1.698,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "No active observed water-level sensor verified for this selected water."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "observed",
+          "stationId": "46013",
+          "stationName": "BODEGA BAY, 48 NM NW of San Francisco",
+          "observedAt": "2026-08-14T01:30:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 33,
+          "freshness": "delayed",
+          "lastKnownGood": false,
+          "environment": "offshore",
+          "platform": "offshore regional",
+          "warning": "Regional offshore observation; not measured at this beach or protected shoreline.",
+          "unit": "metric",
+          "windDirectionDeg": 310,
+          "windSpeedMps": 4,
+          "gustMps": 5,
+          "pressureHpa": 1012.3,
+          "airTempC": 13.7
+        }
+      },
+      "errors": []
+    },
+    "Napa River": {
+      "key": "Napa River",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9415623",
+          "stationName": "Napa, Napa River",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T04:09:00.000Z",
+              "value": 0.52,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T09:46:00.000Z",
+              "value": 2.367,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T16:43:00.000Z",
+              "value": -0.116,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T23:04:00.000Z",
+              "value": 2.101,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T05:01:00.000Z",
+              "value": 0.442,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T10:37:00.000Z",
+              "value": 2.178,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T17:20:00.000Z",
+              "value": 0.038,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T23:38:00.000Z",
+              "value": 2.144,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "No active observed water-level sensor verified for this selected water."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Richmond": {
+      "key": "Richmond",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414863",
+          "stationName": "Richmond",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:14:00.000Z",
+              "value": 0.615,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:06:00.000Z",
+              "value": 2.037,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:45:00.000Z",
+              "value": -0.086,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:27:00.000Z",
+              "value": 1.796,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:04:00.000Z",
+              "value": 0.512,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T08:57:00.000Z",
+              "value": 1.875,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:21:00.000Z",
+              "value": 0.064,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T21:59:00.000Z",
+              "value": 1.816,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414863",
+          "stationName": "Richmond",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.698,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Alameda": {
+      "key": "Alameda",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414750",
+          "stationName": "Alameda",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:16:00.000Z",
+              "value": 0.563,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:14:00.000Z",
+              "value": 2.163,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:48:00.000Z",
+              "value": -0.145,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:28:00.000Z",
+              "value": 1.945,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:07:00.000Z",
+              "value": 0.476,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T09:05:00.000Z",
+              "value": 2.01,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:25:00.000Z",
+              "value": 0.026,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T22:02:00.000Z",
+              "value": 1.978,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414750",
+          "stationName": "Alameda",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.671,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Berkeley": {
+      "key": "Berkeley",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414816",
+          "stationName": "Berkeley",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:04:00.000Z",
+              "value": 0.578,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:04:00.000Z",
+              "value": 1.997,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:39:00.000Z",
+              "value": -0.155,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:19:00.000Z",
+              "value": 1.832,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T02:57:00.000Z",
+              "value": 0.49,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T08:58:00.000Z",
+              "value": 1.838,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:16:00.000Z",
+              "value": 0.042,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T21:54:00.000Z",
+              "value": 1.856,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414750",
+          "stationName": "Alameda",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.671,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Oakland Inner Harbor": {
+      "key": "Oakland Inner Harbor",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414763",
+          "stationName": "Oakland Harbor, Grove Street",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:14:00.000Z",
+              "value": 0.578,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:14:00.000Z",
+              "value": 2.06,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:48:00.000Z",
+              "value": -0.129,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:32:00.000Z",
+              "value": 1.842,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:06:00.000Z",
+              "value": 0.491,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T09:05:00.000Z",
+              "value": 1.905,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:25:00.000Z",
+              "value": 0.043,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T22:06:00.000Z",
+              "value": 1.878,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414750",
+          "stationName": "Alameda",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.671,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Oakland Outer Harbor": {
+      "key": "Oakland Outer Harbor",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414763",
+          "stationName": "Oakland Harbor, Grove Street",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:14:00.000Z",
+              "value": 0.578,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:14:00.000Z",
+              "value": 2.06,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:48:00.000Z",
+              "value": -0.129,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:32:00.000Z",
+              "value": 1.842,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:06:00.000Z",
+              "value": 0.491,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T09:05:00.000Z",
+              "value": 1.905,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:25:00.000Z",
+              "value": 0.043,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T22:06:00.000Z",
+              "value": 1.878,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414750",
+          "stationName": "Alameda",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.671,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Redwood City": {
+      "key": "Redwood City",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414523",
+          "stationName": "Redwood City",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:58:00.000Z",
+              "value": 0.555,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:44:00.000Z",
+              "value": 2.68,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T15:27:00.000Z",
+              "value": -0.194,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:57:00.000Z",
+              "value": 2.49,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:48:00.000Z",
+              "value": 0.466,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T09:34:00.000Z",
+              "value": 2.525,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T16:03:00.000Z",
+              "value": -0.002,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T22:30:00.000Z",
+              "value": 2.523,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414523",
+          "stationName": "Redwood City",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.813,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "San Mateo Bridge": {
+      "key": "San Mateo Bridge",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414458",
+          "stationName": "San Mateo Bridge (west end)",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:58:00.000Z",
+              "value": 0.555,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:42:00.000Z",
+              "value": 2.52,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T15:28:00.000Z",
+              "value": -0.202,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:54:00.000Z",
+              "value": 2.327,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:47:00.000Z",
+              "value": 0.466,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T09:33:00.000Z",
+              "value": 2.367,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T16:03:00.000Z",
+              "value": -0.012,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T22:27:00.000Z",
+              "value": 2.364,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414523",
+          "stationName": "Redwood City",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.813,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Dumbarton Bridge": {
+      "key": "Dumbarton Bridge",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414509",
+          "stationName": "Dumbarton Highway Bridge",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T03:04:00.000Z",
+              "value": 0.64,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:50:00.000Z",
+              "value": 2.764,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T15:30:00.000Z",
+              "value": -0.142,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T22:05:00.000Z",
+              "value": 2.615,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:53:00.000Z",
+              "value": 0.542,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T09:41:00.000Z",
+              "value": 2.608,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T16:07:00.000Z",
+              "value": 0.043,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T22:38:00.000Z",
+              "value": 2.647,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414523",
+          "stationName": "Redwood City",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.813,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Oyster Point": {
+      "key": "Oyster Point",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414392",
+          "stationName": "Oyster Point Marina",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:32:00.000Z",
+              "value": 0.578,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:22:00.000Z",
+              "value": 2.387,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T15:06:00.000Z",
+              "value": -0.129,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:40:00.000Z",
+              "value": 2.118,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:24:00.000Z",
+              "value": 0.491,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T09:13:00.000Z",
+              "value": 2.196,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:43:00.000Z",
+              "value": 0.043,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T22:14:00.000Z",
+              "value": 2.162,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414523",
+          "stationName": "Redwood City",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.813,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "San Rafael": {
+      "key": "San Rafael",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414874",
+          "stationName": "Corte Madera Creek",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:31:00.000Z",
+              "value": 0.618,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:16:00.000Z",
+              "value": 1.823,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T15:07:00.000Z",
+              "value": -0.042,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:47:00.000Z",
+              "value": 1.63,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:26:00.000Z",
+              "value": 0.543,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T09:11:00.000Z",
+              "value": 1.671,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:44:00.000Z",
+              "value": 0.116,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T22:21:00.000Z",
+              "value": 1.672,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414863",
+          "stationName": "Richmond",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.698,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Tiburon": {
+      "key": "Tiburon",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414819",
+          "stationName": "Sausalito, Corps of Engineers Dock",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T01:53:00.000Z",
+              "value": 0.578,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T07:51:00.000Z",
+              "value": 1.902,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:27:00.000Z",
+              "value": -0.129,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:09:00.000Z",
+              "value": 1.688,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T02:45:00.000Z",
+              "value": 0.491,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T08:42:00.000Z",
+              "value": 1.75,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:04:00.000Z",
+              "value": 0.043,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T21:43:00.000Z",
+              "value": 1.723,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.707,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Benicia": {
+      "key": "Benicia",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9415111",
+          "stationName": "Benicia",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T03:59:00.000Z",
+              "value": 0.536,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T09:43:00.000Z",
+              "value": 1.746,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T16:45:00.000Z",
+              "value": -0.014,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T23:08:00.000Z",
+              "value": 1.529,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T04:53:00.000Z",
+              "value": 0.448,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T10:35:00.000Z",
+              "value": 1.62,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T17:15:00.000Z",
+              "value": 0.071,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T23:41:00.000Z",
+              "value": 1.553,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9415102",
+          "stationName": "Martinez-Amorco Pier",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.964,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Vallejo": {
+      "key": "Vallejo",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9415165",
+          "stationName": "Vallejo, Mare Island Strait",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T03:44:00.000Z",
+              "value": 0.485,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T09:28:00.000Z",
+              "value": 1.979,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T16:18:00.000Z",
+              "value": -0.108,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T22:46:00.000Z",
+              "value": 1.756,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T04:36:00.000Z",
+              "value": 0.413,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T10:19:00.000Z",
+              "value": 1.821,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T16:55:00.000Z",
+              "value": 0.036,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T23:20:00.000Z",
+              "value": 1.793,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9415102",
+          "stationName": "Martinez-Amorco Pier",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.964,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Martinez-Amorco Pier": {
+      "key": "Martinez-Amorco Pier",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9415102",
+          "stationName": "Martinez-Amorco Pier",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T04:06:00.000Z",
+              "value": 0.515,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T09:39:00.000Z",
+              "value": 1.745,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T16:43:00.000Z",
+              "value": -0.048,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T23:03:00.000Z",
+              "value": 1.544,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T04:58:00.000Z",
+              "value": 0.433,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T10:31:00.000Z",
+              "value": 1.622,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T17:16:00.000Z",
+              "value": 0.069,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T23:34:00.000Z",
+              "value": 1.57,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9415102",
+          "stationName": "Martinez-Amorco Pier",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.964,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Carquinez Strait": {
+      "key": "Carquinez Strait",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9415111",
+          "stationName": "Benicia",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T03:59:00.000Z",
+              "value": 0.536,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T09:43:00.000Z",
+              "value": 1.746,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T16:45:00.000Z",
+              "value": -0.014,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T23:08:00.000Z",
+              "value": 1.529,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T04:53:00.000Z",
+              "value": 0.448,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T10:35:00.000Z",
+              "value": 1.62,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T17:15:00.000Z",
+              "value": 0.071,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T23:41:00.000Z",
+              "value": 1.553,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9415102",
+          "stationName": "Martinez-Amorco Pier",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.964,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Point Pinole": {
+      "key": "Point Pinole",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414863",
+          "stationName": "Richmond",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:14:00.000Z",
+              "value": 0.615,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:06:00.000Z",
+              "value": 2.037,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:45:00.000Z",
+              "value": -0.086,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:27:00.000Z",
+              "value": 1.796,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:04:00.000Z",
+              "value": 0.512,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T08:57:00.000Z",
+              "value": 1.875,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:21:00.000Z",
+              "value": 0.064,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T21:59:00.000Z",
+              "value": 1.816,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414863",
+          "stationName": "Richmond",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.698,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Hunters Point": {
+      "key": "Hunters Point",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T01:32:00.000Z",
+              "value": 0.578,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T07:41:00.000Z",
+              "value": 1.94,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:06:00.000Z",
+              "value": -0.129,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T20:59:00.000Z",
+              "value": 1.722,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T02:24:00.000Z",
+              "value": 0.491,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T08:32:00.000Z",
+              "value": 1.785,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T14:43:00.000Z",
+              "value": 0.043,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T21:33:00.000Z",
+              "value": 1.758,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.707,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "San Leandro Bay": {
+      "key": "San Leandro Bay",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414750",
+          "stationName": "Alameda",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:16:00.000Z",
+              "value": 0.563,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:14:00.000Z",
+              "value": 2.163,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:48:00.000Z",
+              "value": -0.145,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:28:00.000Z",
+              "value": 1.945,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:07:00.000Z",
+              "value": 0.476,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T09:05:00.000Z",
+              "value": 2.01,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:25:00.000Z",
+              "value": 0.026,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T22:02:00.000Z",
+              "value": 1.978,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414750",
+          "stationName": "Alameda",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.671,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "San Leandro Marina": {
+      "key": "San Leandro Marina",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414750",
+          "stationName": "Alameda",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T02:16:00.000Z",
+              "value": 0.563,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T08:14:00.000Z",
+              "value": 2.163,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:48:00.000Z",
+              "value": -0.145,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:28:00.000Z",
+              "value": 1.945,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T03:07:00.000Z",
+              "value": 0.476,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T09:05:00.000Z",
+              "value": 2.01,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:25:00.000Z",
+              "value": 0.026,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T22:02:00.000Z",
+              "value": 1.978,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414750",
+          "stationName": "Alameda",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.671,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Richardson Bay": {
+      "key": "Richardson Bay",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414819",
+          "stationName": "Sausalito, Corps of Engineers Dock",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T01:53:00.000Z",
+              "value": 0.578,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T07:51:00.000Z",
+              "value": 1.902,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T14:27:00.000Z",
+              "value": -0.129,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T21:09:00.000Z",
+              "value": 1.688,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T02:45:00.000Z",
+              "value": 0.491,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T08:42:00.000Z",
+              "value": 1.75,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T15:04:00.000Z",
+              "value": 0.043,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T21:43:00.000Z",
+              "value": 1.723,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.707,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    },
+    "Bolinas Lagoon": {
+      "key": "Bolinas Lagoon",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "No verified Phase 1 tide-prediction station mapping; prediction unavailable."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "No active observed water-level sensor verified for this selected water."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "Ocean buoy unavailable: offshore waves are not representative of this protected, inland, harbor, or tidal-river water."
+        }
+      },
+      "errors": []
+    }
+  },
+  "sensors": {
+    "sensor:46012": {
+      "key": "sensor:46012",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "observed",
+          "stationId": "46012",
+          "stationName": "HALF MOON BAY, 24 NM SSW of San Francisco",
+          "observedAt": "2026-08-14T01:00:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 63,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "environment": "offshore",
+          "platform": "offshore USV/regional",
+          "warning": "Regional offshore observation; not measured at this beach or protected shoreline.",
+          "unit": "metric",
+          "windDirectionDeg": 230,
+          "windSpeedMps": 6,
+          "gustMps": 7,
+          "waveHeightM": 1.3,
+          "dominantPeriodSec": 8,
+          "pressureHpa": 1013.1,
+          "airTempC": 15.4,
+          "waterTempC": 15.6
+        }
+      },
+      "errors": []
+    },
+    "sensor:46013": {
+      "key": "sensor:46013",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "observed",
+          "stationId": "46013",
+          "stationName": "BODEGA BAY, 48 NM NW of San Francisco",
+          "observedAt": "2026-08-14T01:30:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 33,
+          "freshness": "delayed",
+          "lastKnownGood": false,
+          "environment": "offshore",
+          "platform": "offshore regional",
+          "warning": "Regional offshore observation; not measured at this beach or protected shoreline.",
+          "unit": "metric",
+          "windDirectionDeg": 310,
+          "windSpeedMps": 4,
+          "gustMps": 5,
+          "pressureHpa": 1012.3,
+          "airTempC": 13.7
+        }
+      },
+      "errors": []
+    },
+    "sensor:46026": {
+      "key": "sensor:46026",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "observed",
+          "stationId": "46026",
+          "stationName": "SAN FRANCISCO, 18 NM west of San Francisco",
+          "observedAt": "2026-08-14T01:30:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 33,
+          "freshness": "delayed",
+          "lastKnownGood": false,
+          "environment": "offshore",
+          "platform": "offshore regional",
+          "warning": "Regional offshore observation; not measured at this beach or protected shoreline.",
+          "unit": "metric",
+          "windDirectionDeg": 270,
+          "windSpeedMps": 2,
+          "gustMps": 3,
+          "pressureHpa": 1012.7,
+          "waterTempC": 14.8
+        }
+      },
+      "errors": []
+    },
+    "sensor:46214": {
+      "key": "sensor:46214",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "observed",
+          "stationId": "46214",
+          "stationName": "Point Reyes CDIP 029",
+          "observedAt": "2026-08-14T01:26:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 37,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "environment": "offshore",
+          "platform": "CDIP offshore",
+          "warning": "Regional offshore observation; not measured at this beach or protected shoreline.",
+          "unit": "metric",
+          "waveHeightM": 2.4,
+          "dominantPeriodSec": 8,
+          "averagePeriodSec": 7.1,
+          "meanWaveDirectionDeg": 320,
+          "waterTempC": 13.7
+        }
+      },
+      "errors": []
+    },
+    "sensor:46237": {
+      "key": "sensor:46237",
+      "health": "stale",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "observed",
+          "stationId": "46237",
+          "stationName": "San Francisco Bar CDIP 142",
+          "observedAt": "2026-08-03T05:30:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 15633,
+          "freshness": "stale",
+          "lastKnownGood": false,
+          "environment": "offshore",
+          "platform": "CDIP nearshore",
+          "warning": "Regional offshore observation; not measured at this beach or protected shoreline.",
+          "unit": "metric",
+          "waveHeightM": 1.6,
+          "dominantPeriodSec": 8,
+          "averagePeriodSec": 6.1,
+          "meanWaveDirectionDeg": 285,
+          "waterTempC": 15.3
+        }
+      },
+      "errors": []
+    },
+    "sensor:9414131": {
+      "key": "sensor:9414131",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414131",
+          "stationName": "Pillar Point Harbor, Half Moon Bay",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T00:48:00.000Z",
+              "value": 0.535,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T06:45:00.000Z",
+              "value": 1.902,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T13:32:00.000Z",
+              "value": -0.113,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T19:58:00.000Z",
+              "value": 1.625,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T01:42:00.000Z",
+              "value": 0.462,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T07:37:00.000Z",
+              "value": 1.734,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T14:08:00.000Z",
+              "value": 0.069,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T20:32:00.000Z",
+              "value": 1.664,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9414275": {
+      "key": "sensor:9414275",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9414275",
+          "stationName": "Ocean Beach, outer coast",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T00:57:00.000Z",
+              "value": 0.578,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T06:52:00.000Z",
+              "value": 1.97,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T13:31:00.000Z",
+              "value": -0.129,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T20:10:00.000Z",
+              "value": 1.752,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T01:49:00.000Z",
+              "value": 0.491,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T07:43:00.000Z",
+              "value": 1.815,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T14:08:00.000Z",
+              "value": 0.043,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T20:44:00.000Z",
+              "value": 1.788,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9414290": {
+      "key": "sensor:9414290",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414290",
+          "stationName": "San Francisco",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.707,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9414311": {
+      "key": "sensor:9414311",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "observed",
+          "stationId": "9414311",
+          "stationName": "San Francisco Pier 1",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "speedMps": 6,
+          "gustMps": 8.5,
+          "directionDeg": 250,
+          "directionCardinal": "WSW",
+          "unit": "m/s"
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9414523": {
+      "key": "sensor:9414523",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414523",
+          "stationName": "Redwood City",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.813,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9414750": {
+      "key": "sensor:9414750",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414750",
+          "stationName": "Alameda",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.671,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9414769": {
+      "key": "sensor:9414769",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "observed",
+          "stationId": "9414769",
+          "stationName": "Oakland Middle Harbor Met",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "speedMps": 7.7,
+          "gustMps": 11,
+          "directionDeg": 235,
+          "directionCardinal": "SW",
+          "unit": "m/s"
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9414847": {
+      "key": "sensor:9414847",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "observed",
+          "stationId": "9414847",
+          "stationName": "Point Potrero, Richmond",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "speedMps": 6.1,
+          "gustMps": 8.4,
+          "directionDeg": 251,
+          "directionCardinal": "WSW",
+          "unit": "m/s"
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9414863": {
+      "key": "sensor:9414863",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9414863",
+          "stationName": "Richmond",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.698,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9415020": {
+      "key": "sensor:9415020",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": true,
+          "freshness": "unavailable",
+          "reason": "No data was found. This product may not be offered at this station at the requested time."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": [
+        "wind: No data was found. This product may not be offered at this station at the requested time."
+      ]
+    },
+    "sensor:9415102": {
+      "key": "sensor:9415102",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9415102",
+          "stationName": "Martinez-Amorco Pier",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 0.964,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9415115": {
+      "key": "sensor:9415115",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "observed",
+          "stationId": "9415115",
+          "stationName": "Pittsburg (Suisun Bay)",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "speedMps": 7.8,
+          "gustMps": 10.7,
+          "directionDeg": 286,
+          "directionCardinal": "WNW",
+          "unit": "m/s"
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9415141": {
+      "key": "sensor:9415141",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "observed",
+          "stationId": "9415141",
+          "stationName": "Davis Point",
+          "observedAt": "2026-08-14T01:54:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 9,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "speedMps": 9.2,
+          "gustMps": 11,
+          "directionDeg": 219,
+          "directionCardinal": "SW",
+          "unit": "m/s"
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9415144": {
+      "key": "sensor:9415144",
+      "health": "partial",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "observed",
+          "stationId": "9415144",
+          "stationName": "Port Chicago",
+          "observedAt": "2026-08-14T01:48:00.000Z",
+          "fetchedAt": "2026-08-14T02:02:51.100Z",
+          "ageMinutes": 15,
+          "freshness": "live",
+          "lastKnownGood": false,
+          "value": 1.026,
+          "unit": "m",
+          "datum": "MLLW"
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:9415625": {
+      "key": "sensor:9415625",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "prediction",
+          "stationId": "9415625",
+          "stationName": "Bodega Harbor entrance",
+          "freshness": "forecast",
+          "values": [
+            {
+              "observedAt": "2026-08-14T01:16:00.000Z",
+              "value": 0.608,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T07:03:00.000Z",
+              "value": 1.88,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T13:50:00.000Z",
+              "value": -0.099,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-14T20:21:00.000Z",
+              "value": 1.662,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T02:08:00.000Z",
+              "value": 0.521,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T07:54:00.000Z",
+              "value": 1.725,
+              "type": "H",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T14:27:00.000Z",
+              "value": 0.073,
+              "type": "L",
+              "unit": "m"
+            },
+            {
+              "observedAt": "2026-08-15T20:55:00.000Z",
+              "value": 1.698,
+              "type": "H",
+              "unit": "m"
+            }
+          ]
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:fffc1": {
+      "key": "sensor:fffc1",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:s06010": {
+      "key": "sensor:s06010",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:s08010": {
+      "key": "sensor:s08010",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:s10010": {
+      "key": "sensor:s10010",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    },
+    "sensor:scqc1": {
+      "key": "sensor:scqc1",
+      "health": "unavailable",
+      "products": {
+        "prediction": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "prediction not integrated for this mapping."
+        },
+        "observedLevel": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "observedLevel not integrated for this mapping."
+        },
+        "wind": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "wind not integrated for this mapping."
+        },
+        "buoy": {
+          "kind": "unavailable",
+          "supported": false,
+          "freshness": "unavailable",
+          "reason": "buoy not integrated for this mapping."
+        }
+      },
+      "errors": []
+    }
+  }
+}
