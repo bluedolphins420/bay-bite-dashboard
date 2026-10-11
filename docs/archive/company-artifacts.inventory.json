@@ -1,0 +1,411 @@
+{
+  "status": "Historical reference only; scripts and proposed units are not installed or active",
+  "entries": [
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/ARTHUR-ACCEPTANCE-ADDENDUM.md",
+      "archivePath": "engineering/bay-bite-2026-08-13/ARTHUR-ACCEPTANCE-ADDENDUM.md",
+      "sha256": "aae9ede682cb72f2042a8a3d1ff25da3f639fb38566b98c61e2cdf76aae3a997",
+      "bytes": 3000
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/ENGINEERING-EVIDENCE.md",
+      "archivePath": "engineering/bay-bite-2026-08-13/ENGINEERING-EVIDENCE.md",
+      "sha256": "2cfa7913d54c875c57cfbb34767e3e43eec6586bef8e2a1a71bb7a78efc4a6c5",
+      "bytes": 8748
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/REMEDIATION-EVIDENCE.md",
+      "archivePath": "engineering/bay-bite-2026-08-13/REMEDIATION-EVIDENCE.md",
+      "sha256": "557f74830ccc885a9e9f8bbe399cac049d3db4d2f747d8a37de3727a63e7dbc7",
+      "bytes": 2884
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/final/git-diff-accepted.patch",
+      "archivePath": "engineering/bay-bite-2026-08-13/final/git-diff-accepted.patch",
+      "sha256": "a44198b88a14cb50707ef7164bf3753650934854217ece101e61dc8972371911",
+      "bytes": 77699
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/final/git-diff-remediated.patch",
+      "archivePath": "engineering/bay-bite-2026-08-13/final/git-diff-remediated.patch",
+      "sha256": "94e4edc5a96d3652c003c2e71d23a1c813771b1f540fc6d54b900e7c81c4315a",
+      "bytes": 77594
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/final/git-diff.patch",
+      "archivePath": "engineering/bay-bite-2026-08-13/final/git-diff.patch",
+      "sha256": "9dca4c1b803737d3e2d58bd21a18bf7872b55f5439978b91b484fcd26aa68fa2",
+      "bytes": 68670
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/final/git-status-accepted.txt",
+      "archivePath": "engineering/bay-bite-2026-08-13/final/git-status-accepted.txt",
+      "sha256": "af08e7ed4224326af8735bea9c14d754270e1dd6f4bb661df42258546ba3387c",
+      "bytes": 276
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/final/git-status-remediated.txt",
+      "archivePath": "engineering/bay-bite-2026-08-13/final/git-status-remediated.txt",
+      "sha256": "af08e7ed4224326af8735bea9c14d754270e1dd6f4bb661df42258546ba3387c",
+      "bytes": 276
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/final/git-status.txt",
+      "archivePath": "engineering/bay-bite-2026-08-13/final/git-status.txt",
+      "sha256": "4b12fb96a76205773fd429f5523e1b0829d45944157a843d95e43887daf59945",
+      "bytes": 247
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/git-diff.patch",
+      "archivePath": "engineering/bay-bite-2026-08-13/git-diff.patch",
+      "sha256": "ee76d12fdefdf08bb9ac147ac691e17b6d6a9b5daabb2cedb4734be8e1bb6497",
+      "bytes": 57942
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-2026-08-13/git-status.txt",
+      "archivePath": "engineering/bay-bite-2026-08-13/git-status.txt",
+      "sha256": "4b12fb96a76205773fd429f5523e1b0829d45944157a843d95e43887daf59945",
+      "bytes": 247
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-fauna-engine-v1-report.md",
+      "archivePath": "engineering/bay-bite-fauna-engine-v1-report.md",
+      "sha256": "5631fb2cd9c4f194e13ae919a4933ada9c6096f478caf05718efe06958896447",
+      "bytes": 15282
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-fishing-smarts/ARCHITECTURE.md",
+      "archivePath": "engineering/bay-bite-fishing-smarts/ARCHITECTURE.md",
+      "sha256": "5c934073eef9001d62b5b3ca5a291050e40ca9da27c84ec8d0f008922ec68240",
+      "bytes": 8451
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-fishing-smarts/LOCAL-FAUNA-BEHAVIOR-ENGINE-AUDIT-AND-SPEC.md",
+      "archivePath": "engineering/bay-bite-fishing-smarts/LOCAL-FAUNA-BEHAVIOR-ENGINE-AUDIT-AND-SPEC.md",
+      "sha256": "9d73adaa528f87102bc9ee60fde0c3c972860631606ace5c2fb6a2791979776e",
+      "bytes": 41625
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-fishing-smarts/REGULATIONS-SCIENCE-CYCLE-1.md",
+      "archivePath": "engineering/bay-bite-fishing-smarts/REGULATIONS-SCIENCE-CYCLE-1.md",
+      "sha256": "7ab300a411ef89da63475d84e88d6b4c0c9e72d69171fedcc4116e8062b3d1cc",
+      "bytes": 4479
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-fishing-smarts/REMAINING-21-CERT-REMEDIATION-TDD-RED.md",
+      "archivePath": "engineering/bay-bite-fishing-smarts/REMAINING-21-CERT-REMEDIATION-TDD-RED.md",
+      "sha256": "c9fcde16088b039099a20e8d533c94064025af21fe3f657a75233d7cd651e700",
+      "bytes": 13019
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-fishing-smarts/REMAINING-21-EXPANSION-TDD-RED.md",
+      "archivePath": "engineering/bay-bite-fishing-smarts/REMAINING-21-EXPANSION-TDD-RED.md",
+      "sha256": "1b37a64b5f280993736792af1dc88dd053e571133f43e79a44a513263642a7a9",
+      "bytes": 9251
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-fishing-smarts/REMAINING-21-IMPLEMENTATION-EVIDENCE.md",
+      "archivePath": "engineering/bay-bite-fishing-smarts/REMAINING-21-IMPLEMENTATION-EVIDENCE.md",
+      "sha256": "71ee1b833e2c687bea35846a9becc8c78f0e0b1c16190d6eb60f93dc4ff5e120",
+      "bytes": 6797
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-fishing-smarts/VERIFICATION.md",
+      "archivePath": "engineering/bay-bite-fishing-smarts/VERIFICATION.md",
+      "sha256": "03e07500f357b3106f1af9c6c76c7dd7d9ffa679c054c5a3075df058154209fa",
+      "bytes": 1847
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-live-ocean-phase1/DATA-DEPLOYMENT-SEPARATION.md",
+      "archivePath": "engineering/bay-bite-live-ocean-phase1/DATA-DEPLOYMENT-SEPARATION.md",
+      "sha256": "8725d856e07e2fbb95cd33dc458072ad984db364fcd8a6575394b3286811da97",
+      "bytes": 2344
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-live-ocean-phase1/ENGINEERING-EVIDENCE.md",
+      "archivePath": "engineering/bay-bite-live-ocean-phase1/ENGINEERING-EVIDENCE.md",
+      "sha256": "dadd3725bb260b6c9c0fd5fdc774dd66dc6b7a3fa503e6253710e1f43d802952",
+      "bytes": 4860
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-live-ocean-phase1/FIX-CYCLE-1.md",
+      "archivePath": "engineering/bay-bite-live-ocean-phase1/FIX-CYCLE-1.md",
+      "sha256": "6f6be592fbad17bc681e8126ea9d0e0079f5897111c95e5adb84ccda78f2cee2",
+      "bytes": 4013
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-live-ocean-phase1/FIX-CYCLE-2.md",
+      "archivePath": "engineering/bay-bite-live-ocean-phase1/FIX-CYCLE-2.md",
+      "sha256": "cdec3a0313f26816592d99c61eb32866c84d011744a245703ac65af2dbdaddff",
+      "bytes": 3855
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-live-ocean-phase1/baseline-git-status.txt",
+      "archivePath": "engineering/bay-bite-live-ocean-phase1/baseline-git-status.txt",
+      "sha256": "af08e7ed4224326af8735bea9c14d754270e1dd6f4bb661df42258546ba3387c",
+      "bytes": 276
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-live-ocean-phase1/baseline-working-tree.patch",
+      "archivePath": "engineering/bay-bite-live-ocean-phase1/baseline-working-tree.patch",
+      "sha256": "5a2b3c2e5dec45ee38cda7572db69ced6adeffbb7b96d8986370b8285a691bab",
+      "bytes": 80980
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-live-ocean-phase1/bay-bite-live-data.service.proposed",
+      "archivePath": "engineering/bay-bite-live-ocean-phase1/bay-bite-live-data.service.proposed",
+      "sha256": "544682d5c33a0ec3141963538d99230bcfabd8ef272dd6d43c1f0993905b9642",
+      "bytes": 297
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-live-ocean-phase1/bay-bite-live-data.timer.proposed",
+      "archivePath": "engineering/bay-bite-live-ocean-phase1/bay-bite-live-data.timer.proposed",
+      "sha256": "3eaed9606c4c2205aef384b2bbe6ced13f3457882ceaf36fce4ff014b641675c",
+      "bytes": 201
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-live-ocean-phase1/production-asset-hashes-before.txt",
+      "archivePath": "engineering/bay-bite-live-ocean-phase1/production-asset-hashes-before.txt",
+      "sha256": "fae552349da1ae193c54809e33b5fa7a74b865133e7d6e9ee215a5cc761e7f97",
+      "bytes": 618
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-live-ocean-phase1/systemd-units-before.txt",
+      "archivePath": "engineering/bay-bite-live-ocean-phase1/systemd-units-before.txt",
+      "sha256": "91279b99b86b092b1b5f75e046775567fdc2debcacfc0ff17be85bed97113120",
+      "bytes": 670
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-polish/POLISH-TDD-EVIDENCE.md",
+      "archivePath": "engineering/bay-bite-polish/POLISH-TDD-EVIDENCE.md",
+      "sha256": "599080fcdc0368e017c976e0b03ba37cd7b8a8122044351f6233334933894f1d",
+      "bytes": 13627
+    },
+    {
+      "source": "/root/company/engineering/bay-bite-ux-cleanup-2026-08-14/ENGINEERING-EVIDENCE.md",
+      "archivePath": "engineering/bay-bite-ux-cleanup-2026-08-14/ENGINEERING-EVIDENCE.md",
+      "sha256": "34c23e1121a146d9f4eadc3f34f0afc1a4a85a58e330d1d48eff8b0272566121",
+      "bytes": 14166
+    },
+    {
+      "source": "/root/company/research/bay-bite-2026-08-13/SOURCE-AUDIT.md",
+      "archivePath": "research/bay-bite-2026-08-13/SOURCE-AUDIT.md",
+      "sha256": "939917a53f124b5014dbaa3a135bffc5b12bb6c7873377ba1c22f22e51451b8e",
+      "bytes": 17405
+    },
+    {
+      "source": "/root/company/research/bay-bite-fauna-source-audit-001.md",
+      "archivePath": "research/bay-bite-fauna-source-audit-001.md",
+      "sha256": "64ecf22e7a76580692d7a4667fd3690a903e9fa2d614355da3611ecae7f4ad38",
+      "bytes": 12783
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/ACCESS-RECOVERY-2026-08-13.md",
+      "archivePath": "research/bay-bite-fishing-smarts/ACCESS-RECOVERY-2026-08-13.md",
+      "sha256": "a58708d01383c5813653309b587cb7dff080ff698432fe81fb8ca7c513799a39",
+      "bytes": 2887
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/COMMUNITY-EVIDENCE-DISPOSITION-2026-08-13.md",
+      "archivePath": "research/bay-bite-fishing-smarts/COMMUNITY-EVIDENCE-DISPOSITION-2026-08-13.md",
+      "sha256": "4aa02cde61c2181ed04ea0082d8ddbe184562a705a904d8f1abd4f8106523131",
+      "bytes": 3224
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/DUAL-GATE-RECOVERY-2026-08-13.md",
+      "archivePath": "research/bay-bite-fishing-smarts/DUAL-GATE-RECOVERY-2026-08-13.md",
+      "sha256": "a669848caf3b2ace04d7e49ce6f1b6996e61aae1d562c0052129a6e898296e17",
+      "bytes": 4162
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/LOCAL-FAUNA-SCIENCE-SOURCE-AUDIT.md",
+      "archivePath": "research/bay-bite-fishing-smarts/LOCAL-FAUNA-SCIENCE-SOURCE-AUDIT.md",
+      "sha256": "ed7425e8203598d2687b7f27e88bf9e127916957acf597067fdeca3d71829af1",
+      "bytes": 39054
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/REMAINING-21-TAXA-SCIENCE-PACKAGE.md",
+      "archivePath": "research/bay-bite-fishing-smarts/REMAINING-21-TAXA-SCIENCE-PACKAGE.md",
+      "sha256": "c77227791bd3c16d78cee7be8fd0923094f3ffe329a9a5c1a26d8622a53da7ec",
+      "bytes": 107171
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/SPECIES-EVIDENCE-RECOVERY-2026-08-13.md",
+      "archivePath": "research/bay-bite-fishing-smarts/SPECIES-EVIDENCE-RECOVERY-2026-08-13.md",
+      "sha256": "fc3ff92abbfd1361e6d4e38b9cccecdb197a98030d387819607f38d76de951d5",
+      "bytes": 3733
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/SPOT-RESEARCH-QA.md",
+      "archivePath": "research/bay-bite-fishing-smarts/SPOT-RESEARCH-QA.md",
+      "sha256": "ab52e762f058b75f79e23cb0918516497135b551eaca75659ce5e730c83e0367",
+      "bytes": 7973
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/build_catalog.py",
+      "archivePath": "research/bay-bite-fishing-smarts/build_catalog.py",
+      "sha256": "a62d874f978e4a222e673f7f33dbb953903456e977e054619b5b6f903820733b",
+      "bytes": 29944
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/build_catalog_v2.py",
+      "archivePath": "research/bay-bite-fishing-smarts/build_catalog_v2.py",
+      "sha256": "bd9c864e93512cd53d680d7b68a03788971c84c4fdd774ac6af0eedc336c7718",
+      "bytes": 25152
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/community-evidence-leads.json",
+      "archivePath": "research/bay-bite-fishing-smarts/community-evidence-leads.json",
+      "sha256": "779cfffc7e8a83d46b8f2b7eda3c906e7fea042c02e8f92e3df1a56313ba97d1",
+      "bytes": 54124
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/community-evidence-review.json",
+      "archivePath": "research/bay-bite-fishing-smarts/community-evidence-review.json",
+      "sha256": "0b80fc97a709a413d293c6781c239eb59b2129656a60495becfcd6a918ec3e89",
+      "bytes": 110329
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/community-evidence-review.md",
+      "archivePath": "research/bay-bite-fishing-smarts/community-evidence-review.md",
+      "sha256": "90f4a828c96895ef80543bec33e6cab00aa77386b0f7e83cc6765218f32c2f55",
+      "bytes": 76123
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/official-access-overrides-v2.json",
+      "archivePath": "research/bay-bite-fishing-smarts/official-access-overrides-v2.json",
+      "sha256": "62a0e8540586b3ba37459497f551a5fbf39e05c03dfb3b40cbbfa955421d719c",
+      "bytes": 15619
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/qa_catalog_v2.py",
+      "archivePath": "research/bay-bite-fishing-smarts/qa_catalog_v2.py",
+      "sha256": "ab8efe8c8aceac2552d23d4140d1a1a66740ab5865a0fadbae0a9d564035b617",
+      "bytes": 7065
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/regulations-species-foundation.json",
+      "archivePath": "research/bay-bite-fishing-smarts/regulations-species-foundation.json",
+      "sha256": "fa2c703eeb7653aefdfbfb7ff51bedd16f28dc368d82e3ff0962dca961dbbb2e",
+      "bytes": 128725
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/regulations-species-foundation.md",
+      "archivePath": "research/bay-bite-fishing-smarts/regulations-species-foundation.md",
+      "sha256": "94789e8ba35278ace1a2dde2ad8b8dc76d016e53e0361a1d685b7fea8a2e8dd2",
+      "bytes": 12989
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/remaining-21-taxa-science.v1.json",
+      "archivePath": "research/bay-bite-fishing-smarts/remaining-21-taxa-science.v1.json",
+      "sha256": "dac789c5f61b60510e8db6322354248c946478f3a84278501c5ed4bf30e2b5db",
+      "bytes": 385992
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/render_markdown.py",
+      "archivePath": "research/bay-bite-fishing-smarts/render_markdown.py",
+      "sha256": "bd2d086e5a1f513e87da156c7cb3fe041470a74cfdd1b1d3062563d9b4c458a8",
+      "bytes": 8635
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/render_markdown_v2.py",
+      "archivePath": "research/bay-bite-fishing-smarts/render_markdown_v2.py",
+      "sha256": "80917739e3f7fd0f57dcad0ed50bd8736136531eed52ecf2248f59e30b899bac",
+      "bytes": 2405
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/research_obis_species_edges.py",
+      "archivePath": "research/bay-bite-fishing-smarts/research_obis_species_edges.py",
+      "sha256": "229a2155ac957b99e64442774e4af6a2d8b5702910db565a5e368e135fb074fd",
+      "bytes": 3910
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/spot-catalog-100-v2.json",
+      "archivePath": "research/bay-bite-fishing-smarts/spot-catalog-100-v2.json",
+      "sha256": "62847bfb29b2cb46160252978a7850ab4ab5cc98ecd8a7afcc928c02255c0338",
+      "bytes": 1214786
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/spot-catalog-100-v2.md",
+      "archivePath": "research/bay-bite-fishing-smarts/spot-catalog-100-v2.md",
+      "sha256": "1808f294791d97946b8a703c438443c95014f37e2a42b9fb2c785121b314cc49",
+      "bytes": 394219
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/spot-catalog-100.json",
+      "archivePath": "research/bay-bite-fishing-smarts/spot-catalog-100.json",
+      "sha256": "a1471fa5f51f706e6647bb192835fa945f5f66636aa5b896c91eff7739c2e1dd",
+      "bytes": 607994
+    },
+    {
+      "source": "/root/company/research/bay-bite-fishing-smarts/spot-catalog-100.md",
+      "archivePath": "research/bay-bite-fishing-smarts/spot-catalog-100.md",
+      "sha256": "e510431a11e27172e39605805dd8d60d17e543569848482007960ae21fc70301",
+      "bytes": 34607
+    },
+    {
+      "source": "/root/company/research/bay-bite-live-ocean-phase1/SOURCE-MAP.md",
+      "archivePath": "research/bay-bite-live-ocean-phase1/SOURCE-MAP.md",
+      "sha256": "1418f0e8e249bd204407ca84d31665d15e39950b4628b17f5b7256a09673a45c",
+      "bytes": 25731
+    }
+  ],
+  "excluded": [
+    {
+      "path": "engineering/bay-bite-polish/mobile-390x844.png",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/.access-search-1.json",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/.access-search-2.json",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/.access-search-3.json",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/.inat-local.json",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/.mpa-query.json",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/.obis-local-targets.json",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/.pier-search-1.json",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/.pier-search-2.json",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/.secondary-extracts.json",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/__pycache__/build_catalog_v2.cpython-311.pyc",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/__pycache__/qa_catalog_v2.cpython-311.pyc",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/__pycache__/render_markdown_v2.cpython-311.pyc",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    },
+    {
+      "path": "research/bay-bite-fishing-smarts/__pycache__/research_obis_species_edges.cpython-311.pyc",
+      "reason": "generated cache, raw hidden retrieval scratch, or unreviewed image"
+    }
+  ]
+}

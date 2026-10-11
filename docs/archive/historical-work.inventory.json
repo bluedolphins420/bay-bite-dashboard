@@ -1,0 +1,2196 @@
+{
+  "baselineCommit": "d668fabfc16de60acb48e99bdc01bb09fce4ffad",
+  "snapshotDirectories": [
+    "bay-bite-dashboard",
+    "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+    "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+    "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+    "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+    "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+    "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+    "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+    "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+    "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+    "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+    "bay-bite-dashboard-fauna-v1-sealed-20260813",
+    "bay-bite-dashboard-sealed-20260813-1521",
+    "bay-bite-dashboard-sealed-20260813-1527",
+    "bay-bite-dashboard-sealed-20260813-1537"
+  ],
+  "variantCount": 104,
+  "uncompressedBytes": 7526827,
+  "entries": [
+    {
+      "relativePath": "index.html",
+      "sha256": "343c23472070d7e267e6b42b40bfac24384ed48302f60b4584b82c96b28357fb",
+      "bytes": 475,
+      "archivePath": "variants/343c23472070d7e267e6b42b40bfac24384ed48302f60b4584b82c96b28357fb/index.html",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "index.html"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "index.html"
+        }
+      ]
+    },
+    {
+      "relativePath": "public/manifest.webmanifest",
+      "sha256": "82dcc3212a0d1317148861f62b4cb3be34a26ae6d44b01c7222537594d30c64f",
+      "bytes": 348,
+      "archivePath": "variants/82dcc3212a0d1317148861f62b4cb3be34a26ae6d44b01c7222537594d30c64f/public/manifest.webmanifest",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "public/manifest.webmanifest"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "public/manifest.webmanifest"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/App.css",
+      "sha256": "0288c712831578fc0f85943c9688f296273b9523a8fa3e698029fb2eab91367e",
+      "bytes": 13229,
+      "archivePath": "variants/0288c712831578fc0f85943c9688f296273b9523a8fa3e698029fb2eab91367e/src/App.css",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard",
+          "relativePath": "src/App.css"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/App.tsx",
+      "sha256": "17c8bb7da92328de136aa29e3f06c6c6313d6b46d81b01600ae34960449e9827",
+      "bytes": 25090,
+      "archivePath": "variants/17c8bb7da92328de136aa29e3f06c6c6313d6b46d81b01600ae34960449e9827/src/App.tsx",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard",
+          "relativePath": "src/App.tsx"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/presentation.test.mjs",
+      "sha256": "d01d4550564d766af357986212c681719d3505ea4445e1840f3ca137d1cf5b4a",
+      "bytes": 4030,
+      "archivePath": "variants/d01d4550564d766af357986212c681719d3505ea4445e1840f3ca137d1cf5b4a/src/presentation.test.mjs",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard",
+          "relativePath": "src/presentation.test.mjs"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts",
+      "sha256": "bff477b28849303f6e9785e350cd80c60e4ed48a0face35aed3c02d49f408202",
+      "bytes": 15000,
+      "archivePath": "variants/bff477b28849303f6e9785e350cd80c60e4ed48a0face35aed3c02d49f408202/src/fishing-smarts/fauna-opportunity.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/legal-provenance.ts",
+      "sha256": "04552cc24f228f4d0495c9347a0759eb5a8dcfa9795a794a418a83c8d875c96e",
+      "bytes": 3350,
+      "archivePath": "variants/04552cc24f228f4d0495c9347a0759eb5a8dcfa9795a794a418a83c8d875c96e/src/fishing-smarts/legal-provenance.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard",
+          "relativePath": "src/fishing-smarts/legal-provenance.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/fishing-smarts/legal-provenance.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/fishing-smarts/legal-provenance.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/fishing-smarts/legal-provenance.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/fishing-smarts/legal-provenance.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/fishing-smarts/legal-provenance.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/fishing-smarts/legal-provenance.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/fishing-smarts/legal-provenance.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/legal-provenance.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/fishing-smarts/legal-provenance.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "CONTENT-IDENTITY.txt",
+      "sha256": "39bfd580e30af4dc04fd94571e4ea1463d0dc80330c565c93e0ab0f103207391",
+      "bytes": 209,
+      "archivePath": "variants/39bfd580e30af4dc04fd94571e4ea1463d0dc80330c565c93e0ab0f103207391/CONTENT-IDENTITY.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "CONTENT-IDENTITY.txt"
+        }
+      ]
+    },
+    {
+      "relativePath": "public/data/live-status.json",
+      "sha256": "5d34f9a2dee92cf7fc3fbbac1254b1d530c75c4ab7c20263881cf750af4877e6",
+      "bytes": 100365,
+      "archivePath": "variants/5d34f9a2dee92cf7fc3fbbac1254b1d530c75c4ab7c20263881cf750af4877e6/public/data/live-status.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "public/data/live-status.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "public/data/live-status.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "public/data/live-status.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "public/data/live-status.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "scripts/data/spot-catalog-100-v2.source.json",
+      "sha256": "a783d97ba39c2fb8acb295e35cb2e0631a187fe19c61e108bdcce149178e6513",
+      "bytes": 1214941,
+      "archivePath": "variants/a783d97ba39c2fb8acb295e35cb2e0631a187fe19c61e108bdcce149178e6513/scripts/data/spot-catalog-100-v2.source.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "scripts/data/spot-catalog-100-v2.source.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/App.css",
+      "sha256": "39e24cb883c58f02f61c8bc351ed7e57f6d666b140ce859f355cf203e6ee3adc",
+      "bytes": 20731,
+      "archivePath": "variants/39e24cb883c58f02f61c8bc351ed7e57f6d666b140ce859f355cf203e6ee3adc/src/App.css",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/App.css"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/App.tsx",
+      "sha256": "89a2b25d8a62dff0eb6f995b8b8b4163a6375dace94efe5de081435dc5284125",
+      "bytes": 35074,
+      "archivePath": "variants/89a2b25d8a62dff0eb6f995b8b8b4163a6375dace94efe5de081435dc5284125/src/App.tsx",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/App.tsx"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/App.tsx"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/App.tsx"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/App.tsx"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/App.tsx"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/App.tsx"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/App.tsx"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/App.tsx"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/App.tsx"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/data.test.ts",
+      "sha256": "28805b090cac49382ba28b6d658d4a4ebcbe55312d1974fc22a15798a9172c61",
+      "bytes": 5008,
+      "archivePath": "variants/28805b090cac49382ba28b6d658d4a4ebcbe55312d1974fc22a15798a9172c61/src/data.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/data.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/data.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/data.ts",
+      "sha256": "a59c99287570deb3f3a4cd17b00c958d593d9fed3607615225a94bbdc681992a",
+      "bytes": 80103,
+      "archivePath": "variants/a59c99287570deb3f3a4cd17b00c958d593d9fed3607615225a94bbdc681992a/src/data.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/data.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/popup-content.test.ts",
+      "sha256": "d7d54f8ff1008b55884a3d7d22c716bbe0da1b1be6dd662b489c3824b3baa7b9",
+      "bytes": 1770,
+      "archivePath": "variants/d7d54f8ff1008b55884a3d7d22c716bbe0da1b1be6dd662b489c3824b3baa7b9/src/popup-content.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/popup-content.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/popup-content.ts",
+      "sha256": "1295330ec3a12995903ffc9f8c9864504f49f9a1e1d53fac6ea1e877efa4eae4",
+      "bytes": 1330,
+      "archivePath": "variants/1295330ec3a12995903ffc9f8c9864504f49f9a1e1d53fac6ea1e877efa4eae4/src/popup-content.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/popup-content.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/presentation.test.mjs",
+      "sha256": "503a3a8463256dd1c05a075a3e15b608519e446c52ecbe74768c12301979ec30",
+      "bytes": 9640,
+      "archivePath": "variants/503a3a8463256dd1c05a075a3e15b608519e446c52ecbe74768c12301979ec30/src/presentation.test.mjs",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/presentation.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/presentation.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/presentation.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/presentation.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/presentation.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/presentation.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/presentation.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/presentation.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/presentation.test.mjs"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/telemetry.test.ts",
+      "sha256": "fc8246ec1e5cb52cdd7bf5163d61d0b7a63a82e259a37310cce18ebd5bca170e",
+      "bytes": 16075,
+      "archivePath": "variants/fc8246ec1e5cb52cdd7bf5163d61d0b7a63a82e259a37310cce18ebd5bca170e/src/telemetry.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/telemetry.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/telemetry.ts",
+      "sha256": "0af62eefd6678c64880f9cbe5f96698764b1cbda9a97385bf83e22f2f54335ce",
+      "bytes": 22712,
+      "archivePath": "variants/0af62eefd6678c64880f9cbe5f96698764b1cbda9a97385bf83e22f2f54335ce/src/telemetry.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/telemetry.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/telemetry.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/telemetry.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/telemetry.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/telemetry.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/telemetry.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/telemetry.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/telemetry.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/exact-taxon-science-expansion.test.ts",
+      "sha256": "bb9b78624a39dc2710c9b65b0ef34749b125e077fcd7d14a44610dbdb8fab5e3",
+      "bytes": 4992,
+      "archivePath": "variants/bb9b78624a39dc2710c9b65b0ef34749b125e077fcd7d14a44610dbdb8fab5e3/src/fishing-smarts/exact-taxon-science-expansion.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/fishing-smarts/exact-taxon-science-expansion.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/fishing-smarts/exact-taxon-science-expansion.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/fauna-opportunity.ts",
+      "sha256": "253dd034129593f54251097a6120341ec2fe222d33cc6bbbf5177000ce86a19f",
+      "bytes": 35997,
+      "archivePath": "variants/253dd034129593f54251097a6120341ec2fe222d33cc6bbbf5177000ce86a19f/src/fishing-smarts/fauna-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/regulations-science-data.ts",
+      "sha256": "c07bfdfad58660385133c37e861ba89aa5e4b90c9fbd54a3a87952f58cea26ad",
+      "bytes": 128250,
+      "archivePath": "variants/c07bfdfad58660385133c37e861ba89aa5e4b90c9fbd54a3a87952f58cea26ad/src/fishing-smarts/regulations-science-data.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/fishing-smarts/regulations-science-data.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/remaining-21-cert-remediation.test.ts",
+      "sha256": "2c8ad3b2a3ab4a55ace45aa53699eacdfae04e43955c44f6d3e2a8a0264e28fa",
+      "bytes": 16221,
+      "archivePath": "variants/2c8ad3b2a3ab4a55ace45aa53699eacdfae04e43955c44f6d3e2a8a0264e28fa/src/fishing-smarts/remaining-21-cert-remediation.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/fishing-smarts/remaining-21-cert-remediation.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/reviewed-exact-taxon-expansion.ts",
+      "sha256": "5e4472157a8a98eca7587fa4ae22458b1c7f57458a1eb68b7992fa50efd8bcd1",
+      "bytes": 504952,
+      "archivePath": "variants/5e4472157a8a98eca7587fa4ae22458b1c7f57458a1eb68b7992fa50efd8bcd1/src/fishing-smarts/reviewed-exact-taxon-expansion.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/fishing-smarts/reviewed-exact-taxon-expansion.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/fishing-smarts/reviewed-exact-taxon-expansion.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/fishing-smarts/reviewed-exact-taxon-expansion.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/scientific-sources.ts",
+      "sha256": "1ef91ac8cab606ab41a818e0f449dcb5a2ffc6b6601fda48abdeb74afff733d5",
+      "bytes": 9893,
+      "archivePath": "variants/1ef91ac8cab606ab41a818e0f449dcb5a2ffc6b6601fda48abdeb74afff733d5/src/fishing-smarts/scientific-sources.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/fishing-smarts/scientific-sources.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/fishing-smarts/scientific-sources.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/selected-water-opportunity.ts",
+      "sha256": "ead7e4de181edc84995c0fb6ebad9a0f33a2f52cd337ee6b0ee8e32c7e5a3ae6",
+      "bytes": 7550,
+      "archivePath": "variants/ead7e4de181edc84995c0fb6ebad9a0f33a2f52cd337ee6b0ee8e32c7e5a3ae6/src/fishing-smarts/selected-water-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json",
+      "sha256": "71b2d7d3abcb52238a6d68621b8540c136792554c6d604275dda1d0e56491b4b",
+      "bytes": 1012618,
+      "archivePath": "variants/71b2d7d3abcb52238a6d68621b8540c136792554c6d604275dda1d0e56491b4b/src/fishing-smarts/generated/research-catalog.v2.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final-sealed-20260813-2035",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "CONTENT-IDENTITY.txt",
+      "sha256": "f0142518bdc2ce2f680febdb0f02a8bd710e5e63004f191bbecebc1c76f1ee5c",
+      "bytes": 209,
+      "archivePath": "variants/f0142518bdc2ce2f680febdb0f02a8bd710e5e63004f191bbecebc1c76f1ee5c/CONTENT-IDENTITY.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "CONTENT-IDENTITY.txt"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/scientific-sources.ts",
+      "sha256": "e59f4ec159744a69e085e90af784b66000ff883330b888cd9d8c870ff07d1d5a",
+      "bytes": 8881,
+      "archivePath": "variants/e59f4ec159744a69e085e90af784b66000ff883330b888cd9d8c870ff07d1d5a/src/fishing-smarts/scientific-sources.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final2-sealed-20260813-2042",
+          "relativePath": "src/fishing-smarts/scientific-sources.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "CONTENT-IDENTITY.txt",
+      "sha256": "abc48a7fe17377ec865f5355fef13a55ce0620ca3027b1f8eaf7d08eda9a7a4a",
+      "bytes": 209,
+      "archivePath": "variants/abc48a7fe17377ec865f5355fef13a55ce0620ca3027b1f8eaf7d08eda9a7a4a/CONTENT-IDENTITY.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "CONTENT-IDENTITY.txt"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/public-export-immutability.test.ts",
+      "sha256": "8aafbd374979f2176e19fbf97d72459aef73dc1eaa9d7773ec767594549cb6f9",
+      "bytes": 3945,
+      "archivePath": "variants/8aafbd374979f2176e19fbf97d72459aef73dc1eaa9d7773ec767594549cb6f9/src/fishing-smarts/public-export-immutability.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/fishing-smarts/public-export-immutability.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/scientific-sources.ts",
+      "sha256": "0bf51749c2e53d833d350a8d0a3323c77af7e466eb9cabc5907b0cc90578eea9",
+      "bytes": 9199,
+      "archivePath": "variants/0bf51749c2e53d833d350a8d0a3323c77af7e466eb9cabc5907b0cc90578eea9/src/fishing-smarts/scientific-sources.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/fishing-smarts/scientific-sources.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/selected-water-opportunity.ts",
+      "sha256": "6a23f7aed58ad0a6276977f01f81f6015369d7f645b37ff0716b410abd658d85",
+      "bytes": 8495,
+      "archivePath": "variants/6a23f7aed58ad0a6276977f01f81f6015369d7f645b37ff0716b410abd658d85/src/fishing-smarts/selected-water-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final3-sealed-20260813-2051",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "CONTENT-IDENTITY.txt",
+      "sha256": "5180a3b89a37e8779f3480551798ef9998b372f92235926bcaad46f8144835dd",
+      "bytes": 209,
+      "archivePath": "variants/5180a3b89a37e8779f3480551798ef9998b372f92235926bcaad46f8144835dd/CONTENT-IDENTITY.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "CONTENT-IDENTITY.txt"
+        }
+      ]
+    },
+    {
+      "relativePath": "public/data/live-status.json",
+      "sha256": "c0832f2cd2579740f76d053abb2320161c4005760b8a2a75653fe30f7052516a",
+      "bytes": 100378,
+      "archivePath": "variants/c0832f2cd2579740f76d053abb2320161c4005760b8a2a75653fe30f7052516a/public/data/live-status.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "public/data/live-status.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "public/data/live-status.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/data.ts",
+      "sha256": "7e0e76991f7402325124603f7fe8ec81f8310974ccc7ad8f7409a480c1c9fdca",
+      "bytes": 80477,
+      "archivePath": "variants/7e0e76991f7402325124603f7fe8ec81f8310974ccc7ad8f7409a480c1c9fdca/src/data.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/data.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/public-export-immutability.test.ts",
+      "sha256": "de8445bfd1a0abad5e2263a065cc81c12030506e5f1339fa14091ba88a425677",
+      "bytes": 7502,
+      "archivePath": "variants/de8445bfd1a0abad5e2263a065cc81c12030506e5f1339fa14091ba88a425677/src/fishing-smarts/public-export-immutability.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2108",
+          "relativePath": "src/fishing-smarts/public-export-immutability.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "CONTENT-IDENTITY.txt",
+      "sha256": "0aaa9d2c5fffe0cf7a0f3bfc374f8a418b55306f306c8ef695056b92d04a6d3d",
+      "bytes": 209,
+      "archivePath": "variants/0aaa9d2c5fffe0cf7a0f3bfc374f8a418b55306f306c8ef695056b92d04a6d3d/CONTENT-IDENTITY.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "CONTENT-IDENTITY.txt"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/data.ts",
+      "sha256": "759ff5528990355616904d0571578ae417fa80f347ec30c737cfec882ac16e0e",
+      "bytes": 23441,
+      "archivePath": "variants/759ff5528990355616904d0571578ae417fa80f347ec30c737cfec882ac16e0e/src/data.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-final4-sealed-20260813-2113",
+          "relativePath": "src/data.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "CONTENT-IDENTITY.txt",
+      "sha256": "8075c2fa49955506313c4fe1a5c0efe9c11dc391563a8cb6351e9964e3674544",
+      "bytes": 209,
+      "archivePath": "variants/8075c2fa49955506313c4fe1a5c0efe9c11dc391563a8cb6351e9964e3674544/CONTENT-IDENTITY.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "CONTENT-IDENTITY.txt"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/remaining-21-cert-remediation.test.ts",
+      "sha256": "a81eb377e7afbf56eaff26c0bba6b37240d9a88d5b1cc6caf5f9906bbb4438f2",
+      "bytes": 16233,
+      "archivePath": "variants/a81eb377e7afbf56eaff26c0bba6b37240d9a88d5b1cc6caf5f9906bbb4438f2/src/fishing-smarts/remaining-21-cert-remediation.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/fishing-smarts/remaining-21-cert-remediation.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/reviewed-exact-taxon-expansion.ts",
+      "sha256": "516fb53c9c3e5c3730be72a80dfbfb687af156e9737647edf426fbfad0330bae",
+      "bytes": 504487,
+      "archivePath": "variants/516fb53c9c3e5c3730be72a80dfbfb687af156e9737647edf426fbfad0330bae/src/fishing-smarts/reviewed-exact-taxon-expansion.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-remediated-sealed-20260813-2024",
+          "relativePath": "src/fishing-smarts/reviewed-exact-taxon-expansion.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "CONTENT-IDENTITY.txt",
+      "sha256": "9348e4291883e920daee58fe166507fbf1a84e01614c9b64c5f1899dcc8eefd8",
+      "bytes": 209,
+      "archivePath": "variants/9348e4291883e920daee58fe166507fbf1a84e01614c9b64c5f1899dcc8eefd8/CONTENT-IDENTITY.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "CONTENT-IDENTITY.txt"
+        }
+      ]
+    },
+    {
+      "relativePath": "public/data/live-status.json",
+      "sha256": "fe2ad080ef5349f00bc92cc8e5195564ccf2b2e2a51aac585cbe325ab4d6aa4b",
+      "bytes": 118833,
+      "archivePath": "variants/fe2ad080ef5349f00bc92cc8e5195564ccf2b2e2a51aac585cbe325ab4d6aa4b/public/data/live-status.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "public/data/live-status.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/exact-taxon-science-expansion.test.ts",
+      "sha256": "146e9de285e6e96ce41a124d89d22f9476a7f0bcb4341f83962dd2d72eef47a0",
+      "bytes": 5014,
+      "archivePath": "variants/146e9de285e6e96ce41a124d89d22f9476a7f0bcb4341f83962dd2d72eef47a0/src/fishing-smarts/exact-taxon-science-expansion.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/fishing-smarts/exact-taxon-science-expansion.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/fauna-opportunity.ts",
+      "sha256": "0ccf9c6ed11294450a0fb4d42f0f1bbdfdbd8f3137ba63a571f5e47f9f7b8e0d",
+      "bytes": 35234,
+      "archivePath": "variants/0ccf9c6ed11294450a0fb4d42f0f1bbdfdbd8f3137ba63a571f5e47f9f7b8e0d/src/fishing-smarts/fauna-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/reviewed-exact-taxon-expansion.ts",
+      "sha256": "56f1b49fd6d8937a5babaec0b8bd6fb27b62d411b8f82ff4cebd59139bb16654",
+      "bytes": 224408,
+      "archivePath": "variants/56f1b49fd6d8937a5babaec0b8bd6fb27b62d411b8f82ff4cebd59139bb16654/src/fishing-smarts/reviewed-exact-taxon-expansion.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/fishing-smarts/reviewed-exact-taxon-expansion.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/scientific-sources.ts",
+      "sha256": "03df9458211a8a74329f2b19f58336555a1dce9e8286a46d3bd0f42d00261468",
+      "bytes": 9496,
+      "archivePath": "variants/03df9458211a8a74329f2b19f58336555a1dce9e8286a46d3bd0f42d00261468/src/fishing-smarts/scientific-sources.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/fishing-smarts/scientific-sources.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/selected-water-opportunity.test.ts",
+      "sha256": "12994bc29e78227672d0c28f8d1a19e733c5bc6de7f731c24da0901fb92de955",
+      "bytes": 6459,
+      "archivePath": "variants/12994bc29e78227672d0c28f8d1a19e733c5bc6de7f731c24da0901fb92de955/src/fishing-smarts/selected-water-opportunity.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-all-24-taxa-sealed-20260813-1958",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "public/data/live-status.json",
+      "sha256": "2c70292b50ef994246ad1b0ef0b721511d9fb4bbb08b1e402abc75e80fbe7b5a",
+      "bytes": 118977,
+      "archivePath": "variants/2c70292b50ef994246ad1b0ef0b721511d9fb4bbb08b1e402abc75e80fbe7b5a/public/data/live-status.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "public/data/live-status.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "public/data/live-status.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "scripts/generate-research-catalog.mjs",
+      "sha256": "fc9ad804eeb2a11a2fa71383cdfae7f09911e19b1830b861dc964f9c976229d1",
+      "bytes": 5277,
+      "archivePath": "variants/fc9ad804eeb2a11a2fa71383cdfae7f09911e19b1830b861dc964f9c976229d1/scripts/generate-research-catalog.mjs",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "scripts/generate-research-catalog.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "scripts/generate-research-catalog.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "scripts/generate-research-catalog.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "scripts/generate-research-catalog.mjs"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/data.ts",
+      "sha256": "06d73e9b58869f998b1fea83b03c4edae3b781e197b72165af3b62627bd9b191",
+      "bytes": 80085,
+      "archivePath": "variants/06d73e9b58869f998b1fea83b03c4edae3b781e197b72165af3b62627bd9b191/src/data.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/data.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/data.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/telemetry.ts",
+      "sha256": "c3f82de53c13c35f50a52333cf409c851acb6aed520f5ee50f713a2725c10243",
+      "bytes": 16155,
+      "archivePath": "variants/c3f82de53c13c35f50a52333cf409c851acb6aed520f5ee50f713a2725c10243/src/telemetry.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/telemetry.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/fauna-opportunity.ts",
+      "sha256": "512935976bb37d45bb945c65dbca9fb0d42446368c07f62d48d5edbe29c12cc0",
+      "bytes": 32031,
+      "archivePath": "variants/512935976bb37d45bb945c65dbca9fb0d42446368c07f62d48d5edbe29c12cc0/src/fishing-smarts/fauna-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/research-catalog.test.ts",
+      "sha256": "4412e3c3b78a1b0faddde77a87887cb4e640cc709759052c7259963f6dae4160",
+      "bytes": 5094,
+      "archivePath": "variants/4412e3c3b78a1b0faddde77a87887cb4e640cc709759052c7259963f6dae4160/src/fishing-smarts/research-catalog.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/research-catalog.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/research-catalog.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/fishing-smarts/research-catalog.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/research-catalog.ts",
+      "sha256": "81b16fdd8fbb96f501f788d2af9c597dff37ed3b246c2a7301588e948f51a369",
+      "bytes": 3020,
+      "archivePath": "variants/81b16fdd8fbb96f501f788d2af9c597dff37ed3b246c2a7301588e948f51a369/src/fishing-smarts/research-catalog.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/research-catalog.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/research-catalog.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/fishing-smarts/research-catalog.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/fishing-smarts/research-catalog.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/fishing-smarts/research-catalog.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/fishing-smarts/research-catalog.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/scientific-sources.ts",
+      "sha256": "67d1bbf2f1c8c2ab34b320f30afb3c15ddc6ed0962a20bafefb6dc6af9bd7444",
+      "bytes": 9252,
+      "archivePath": "variants/67d1bbf2f1c8c2ab34b320f30afb3c15ddc6ed0962a20bafefb6dc6af9bd7444/src/fishing-smarts/scientific-sources.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/scientific-sources.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/fishing-smarts/scientific-sources.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/selected-water-opportunity.test.ts",
+      "sha256": "1fc86af15bad5d25366858b64ce68221d5491b62ea4b35bdc8af60372a7f9320",
+      "bytes": 4745,
+      "archivePath": "variants/1fc86af15bad5d25366858b64ce68221d5491b62ea4b35bdc8af60372a7f9320/src/fishing-smarts/selected-water-opportunity.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/selected-water-opportunity.ts",
+      "sha256": "8b347779ecdc410dd81e659024da105b89aaabdf529c313f3d346570fc9058d0",
+      "bytes": 7498,
+      "archivePath": "variants/8b347779ecdc410dd81e659024da105b89aaabdf529c313f3d346570fc9058d0/src/fishing-smarts/selected-water-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/trust-boundary.test.ts",
+      "sha256": "aece9eb4ac277fcf2f720fb47d076af8a8d192603fea3a887fa99000ebf20e05",
+      "bytes": 5453,
+      "archivePath": "variants/aece9eb4ac277fcf2f720fb47d076af8a8d192603fea3a887fa99000ebf20e05/src/fishing-smarts/trust-boundary.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/trust-boundary.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json",
+      "sha256": "f6a1b8be7f37e470016f0fe231589b83224ac8246925fc68d6f2986ec435fddd",
+      "bytes": 1010192,
+      "archivePath": "variants/f6a1b8be7f37e470016f0fe231589b83224ac8246925fc68d6f2986ec435fddd/src/fishing-smarts/generated/research-catalog.v2.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1821",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/research-catalog.test.ts",
+      "sha256": "ed1f9ca47c474ccbbc69824d50109f6464861d46f7e726bd4eb0c79b80a5c514",
+      "bytes": 6675,
+      "archivePath": "variants/ed1f9ca47c474ccbbc69824d50109f6464861d46f7e726bd4eb0c79b80a5c514/src/fishing-smarts/research-catalog.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/fishing-smarts/research-catalog.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/selected-water-opportunity.ts",
+      "sha256": "f7b8811b254adcba4806bd028343c16f09112efc4b90c523329be75aa5590e16",
+      "bytes": 7488,
+      "archivePath": "variants/f7b8811b254adcba4806bd028343c16f09112efc4b90c523329be75aa5590e16/src/fishing-smarts/selected-water-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-final-sealed-20260813-1835",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "README.md",
+      "sha256": "5a2983ec7fc8a2281ed96e446a7ae0f9faa75502fece3cdc07527c278adc0a02",
+      "bytes": 2277,
+      "archivePath": "variants/5a2983ec7fc8a2281ed96e446a7ae0f9faa75502fece3cdc07527c278adc0a02/README.md",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "README.md"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "README.md"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "README.md"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "README.md"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "README.md"
+        }
+      ]
+    },
+    {
+      "relativePath": "public/data/live-status.json",
+      "sha256": "f69c9f9450d8ac7295e2eae83315be3f7674fa5722fc4d4602159c3354702c18",
+      "bytes": 119130,
+      "archivePath": "variants/f69c9f9450d8ac7295e2eae83315be3f7674fa5722fc4d4602159c3354702c18/public/data/live-status.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "public/data/live-status.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/App.tsx",
+      "sha256": "93a8de67940c68f22f25681251b9c23919ade002bf830b7ba7a3fe2e14c6e6c9",
+      "bytes": 34135,
+      "archivePath": "variants/93a8de67940c68f22f25681251b9c23919ade002bf830b7ba7a3fe2e14c6e6c9/src/App.tsx",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/App.tsx"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/presentation.test.mjs",
+      "sha256": "19a9be279ea3fd64218337e65a7eef8fee341fee28dc2804624ab47652d06c64",
+      "bytes": 8809,
+      "archivePath": "variants/19a9be279ea3fd64218337e65a7eef8fee341fee28dc2804624ab47652d06c64/src/presentation.test.mjs",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/presentation.test.mjs"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/telemetry.ts",
+      "sha256": "e04803aa8b3231e2dcd6b990844e180af933cca205032dd53a55ea5a3971a1fa",
+      "bytes": 11071,
+      "archivePath": "variants/e04803aa8b3231e2dcd6b990844e180af933cca205032dd53a55ea5a3971a1fa/src/telemetry.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/telemetry.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/telemetry.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/telemetry.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/telemetry.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts",
+      "sha256": "0b95ba4d278a2098d9ac51dff7d75660bb15be0fe9bc06194a46a319c8115806",
+      "bytes": 13460,
+      "archivePath": "variants/0b95ba4d278a2098d9ac51dff7d75660bb15be0fe9bc06194a46a319c8115806/src/fishing-smarts/fauna-opportunity.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/fauna-opportunity.ts",
+      "sha256": "2faf3824e5ad4eb085bc076a7e6d2e0c556710e647a544ebaa19778bcdf8b2cb",
+      "bytes": 27782,
+      "archivePath": "variants/2faf3824e5ad4eb085bc076a7e6d2e0c556710e647a544ebaa19778bcdf8b2cb/src/fishing-smarts/fauna-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/safety-provenance.ts",
+      "sha256": "3263004682840923d46dbd2709b7a6d67a2390c0c010b5e5b5f1f5f5e47365e1",
+      "bytes": 4162,
+      "archivePath": "variants/3263004682840923d46dbd2709b7a6d67a2390c0c010b5e5b5f1f5f5e47365e1/src/fishing-smarts/safety-provenance.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/safety-provenance.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/scientific-sources.ts",
+      "sha256": "c4ba60d4855e2345186055a40bb356acb7d7c9acaa4b83b63f0fb6d9118fbbd4",
+      "bytes": 9006,
+      "archivePath": "variants/c4ba60d4855e2345186055a40bb356acb7d7c9acaa4b83b63f0fb6d9118fbbd4/src/fishing-smarts/scientific-sources.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/scientific-sources.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/selected-water-opportunity.ts",
+      "sha256": "2586dfb87b69f4f554d99202aa2e49bbb39857a48ebf42e31c014ffa1195bdb1",
+      "bytes": 7359,
+      "archivePath": "variants/2586dfb87b69f4f554d99202aa2e49bbb39857a48ebf42e31c014ffa1195bdb1/src/fishing-smarts/selected-water-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/trust-boundary.test.ts",
+      "sha256": "59074f24de4de4ffd2d7d2635d96bc85018fa2416783156519951fc3a6c160a9",
+      "bytes": 2182,
+      "archivePath": "variants/59074f24de4de4ffd2d7d2635d96bc85018fa2416783156519951fc3a6c160a9/src/fishing-smarts/trust-boundary.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-remediated-sealed-20260813-1742",
+          "relativePath": "src/fishing-smarts/trust-boundary.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "FAUNA_V1_SEAL.txt",
+      "sha256": "a842e6e15d049fe82eb7603943291f42b5a3068c2c693a175b81501a720318d6",
+      "bytes": 209,
+      "archivePath": "variants/a842e6e15d049fe82eb7603943291f42b5a3068c2c693a175b81501a720318d6/FAUNA_V1_SEAL.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "FAUNA_V1_SEAL.txt"
+        }
+      ]
+    },
+    {
+      "relativePath": "public/data/live-status.json",
+      "sha256": "a0ae1c51d849e9d1318f638acb165f111a66c32bf6f64b5593b9ab77faa75bbb",
+      "bytes": 119423,
+      "archivePath": "variants/a0ae1c51d849e9d1318f638acb165f111a66c32bf6f64b5593b9ab77faa75bbb/public/data/live-status.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "public/data/live-status.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "public/data/live-status.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/App.tsx",
+      "sha256": "2f3c4b8c4abbff755529164708941227560d557622e8194727ff0956d5590d08",
+      "bytes": 33649,
+      "archivePath": "variants/2f3c4b8c4abbff755529164708941227560d557622e8194727ff0956d5590d08/src/App.tsx",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/App.tsx"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/presentation.test.mjs",
+      "sha256": "888876daf746aca5d5e8fa2ebb4289cfa316de37223c22086346933a8fb5f35d",
+      "bytes": 7932,
+      "archivePath": "variants/888876daf746aca5d5e8fa2ebb4289cfa316de37223c22086346933a8fb5f35d/src/presentation.test.mjs",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/presentation.test.mjs"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/app-integration.ts",
+      "sha256": "64b5ee933ab83935c2f2c8030b9e4cb0aa667f49c77efd853dbd8f50316841a5",
+      "bytes": 4056,
+      "archivePath": "variants/64b5ee933ab83935c2f2c8030b9e4cb0aa667f49c77efd853dbd8f50316841a5/src/fishing-smarts/app-integration.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/fishing-smarts/app-integration.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/fishing-smarts/app-integration.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/fishing-smarts/app-integration.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/fishing-smarts/app-integration.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts",
+      "sha256": "7d611152fa4d8696386a435c5642d807d26f248e2cc70b9f8dce2b9f1198bc49",
+      "bytes": 9274,
+      "archivePath": "variants/7d611152fa4d8696386a435c5642d807d26f248e2cc70b9f8dce2b9f1198bc49/src/fishing-smarts/fauna-opportunity.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/fauna-opportunity.ts",
+      "sha256": "eb0b6c9498b2cbb6b1d70cf65b76564f8dfbcba31825a5aa1f977101619a1692",
+      "bytes": 19166,
+      "archivePath": "variants/eb0b6c9498b2cbb6b1d70cf65b76564f8dfbcba31825a5aa1f977101619a1692/src/fishing-smarts/fauna-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/fishing-smarts/fauna-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/scientific-sources.ts",
+      "sha256": "31191ae2c6c41e944e54336ea7b0882bc67c3e88581de14bd3e3f37e9e398a99",
+      "bytes": 5471,
+      "archivePath": "variants/31191ae2c6c41e944e54336ea7b0882bc67c3e88581de14bd3e3f37e9e398a99/src/fishing-smarts/scientific-sources.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/fishing-smarts/scientific-sources.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/selected-water-opportunity.test.ts",
+      "sha256": "014ef7f9cb88e77c853deaefe18b35cc1083082476a05d554c7fd47e2282c27a",
+      "bytes": 6218,
+      "archivePath": "variants/014ef7f9cb88e77c853deaefe18b35cc1083082476a05d554c7fd47e2282c27a/src/fishing-smarts/selected-water-opportunity.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/selected-water-opportunity.ts",
+      "sha256": "33c75c6479cf8b30c20400afa8a13dd842d2bb6c1acf67cef5c9c2dcca072771",
+      "bytes": 7325,
+      "archivePath": "variants/33c75c6479cf8b30c20400afa8a13dd842d2bb6c1acf67cef5c9c2dcca072771/src/fishing-smarts/selected-water-opportunity.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-fauna-v1-sealed-20260813",
+          "relativePath": "src/fishing-smarts/selected-water-opportunity.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "SEALED-CANDIDATE-IDENTITY.txt",
+      "sha256": "32dc7eb051c7af3f682b78daa2f2312aa6219586606caa268e3c515455a94fe4",
+      "bytes": 145,
+      "archivePath": "variants/32dc7eb051c7af3f682b78daa2f2312aa6219586606caa268e3c515455a94fe4/SEALED-CANDIDATE-IDENTITY.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "SEALED-CANDIDATE-IDENTITY.txt"
+        }
+      ]
+    },
+    {
+      "relativePath": "package.json",
+      "sha256": "71a9cbc03626aaf421ffc7f812627979ca4e3e820a8f60cf7d34c481d12e8880",
+      "bytes": 1120,
+      "archivePath": "variants/71a9cbc03626aaf421ffc7f812627979ca4e3e820a8f60cf7d34c481d12e8880/package.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "package.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "package.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "package.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "public/data/live-status.json",
+      "sha256": "6cafc94f24eb1b00754c5382c5d10abbbc52e8725e1f500dc8d7eac978d2fdf1",
+      "bytes": 118793,
+      "archivePath": "variants/6cafc94f24eb1b00754c5382c5d10abbbc52e8725e1f500dc8d7eac978d2fdf1/public/data/live-status.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "public/data/live-status.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "public/data/live-status.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "scripts/generate-research-catalog.mjs",
+      "sha256": "fd89db77a324bd13d4911ba25b48be36c67d1fc1c305c38852f0778e25f96df5",
+      "bytes": 4763,
+      "archivePath": "variants/fd89db77a324bd13d4911ba25b48be36c67d1fc1c305c38852f0778e25f96df5/scripts/generate-research-catalog.mjs",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "scripts/generate-research-catalog.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "scripts/generate-research-catalog.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "scripts/generate-research-catalog.mjs"
+        }
+      ]
+    },
+    {
+      "relativePath": "scripts/update-live-data.mjs",
+      "sha256": "48267a35cd4b5ce17cb5b1a520c902c8c26539e9278c36ff1fec33ffe67bf7cd",
+      "bytes": 26473,
+      "archivePath": "variants/48267a35cd4b5ce17cb5b1a520c902c8c26539e9278c36ff1fec33ffe67bf7cd/scripts/update-live-data.mjs",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "scripts/update-live-data.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "scripts/update-live-data.mjs"
+        }
+      ]
+    },
+    {
+      "relativePath": "scripts/update-live-data.test.mjs",
+      "sha256": "aedcaea74d3601cb8836c7b167e23b7df9a7a4a78a3a7e8b286201524ff5eee3",
+      "bytes": 14235,
+      "archivePath": "variants/aedcaea74d3601cb8836c7b167e23b7df9a7a4a78a3a7e8b286201524ff5eee3/scripts/update-live-data.test.mjs",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "scripts/update-live-data.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "scripts/update-live-data.test.mjs"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/App.css",
+      "sha256": "d5f2a86f12ceadf0538c3c19752bd2795c2da4d664d0b2fd882bb31ffc6113b1",
+      "bytes": 19180,
+      "archivePath": "variants/d5f2a86f12ceadf0538c3c19752bd2795c2da4d664d0b2fd882bb31ffc6113b1/src/App.css",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/App.css"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/App.css"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/App.tsx",
+      "sha256": "52f5cccc1515c3c0f5686650559f93372112b7f190b0e51eacf635be1f0e4387",
+      "bytes": 35943,
+      "archivePath": "variants/52f5cccc1515c3c0f5686650559f93372112b7f190b0e51eacf635be1f0e4387/src/App.tsx",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/App.tsx"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/App.tsx"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/App.tsx"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/popup-content.test.ts",
+      "sha256": "6892f29b1aefecabac823520bdb910d35533da9ea6f181867ac512df98948446",
+      "bytes": 1255,
+      "archivePath": "variants/6892f29b1aefecabac823520bdb910d35533da9ea6f181867ac512df98948446/src/popup-content.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/popup-content.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/popup-content.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/popup-content.ts",
+      "sha256": "0d1de3135f85b6256c6b6dd5554fa65276093947cba0168ac0e3465f51ddcd75",
+      "bytes": 1508,
+      "archivePath": "variants/0d1de3135f85b6256c6b6dd5554fa65276093947cba0168ac0e3465f51ddcd75/src/popup-content.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/popup-content.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/popup-content.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/presentation.test.mjs",
+      "sha256": "a38d50155611adaf66827357e991b11157b150154b583cda341db8ef1c7d685b",
+      "bytes": 5490,
+      "archivePath": "variants/a38d50155611adaf66827357e991b11157b150154b583cda341db8ef1c7d685b/src/presentation.test.mjs",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/presentation.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/presentation.test.mjs"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/presentation.test.mjs"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/telemetry.test.ts",
+      "sha256": "1963f11943288dbde43c2f0610df53a1004ad3cc92c548c4ba3aad896baa88cb",
+      "bytes": 13441,
+      "archivePath": "variants/1963f11943288dbde43c2f0610df53a1004ad3cc92c548c4ba3aad896baa88cb/src/telemetry.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/telemetry.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/telemetry.ts",
+      "sha256": "665f2981213fbc787b61ef3fe369384b3814e0ff4de5c3125cdad1212f756565",
+      "bytes": 10562,
+      "archivePath": "variants/665f2981213fbc787b61ef3fe369384b3814e0ff4de5c3125cdad1212f756565/src/telemetry.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/telemetry.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/eligibility.test.ts",
+      "sha256": "6eb26de9ac3c59f99262ca1b6e39946d7f467514808b8590beddb18c219a79f0",
+      "bytes": 8880,
+      "archivePath": "variants/6eb26de9ac3c59f99262ca1b6e39946d7f467514808b8590beddb18c219a79f0/src/fishing-smarts/eligibility.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/fishing-smarts/eligibility.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/fishing-smarts/eligibility.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/fishing-smarts/eligibility.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/index.ts",
+      "sha256": "cdf4b4285b7e1df5736588b488a7dcf8fa0c1575cd370fa9a0434493a2c76b3e",
+      "bytes": 10662,
+      "archivePath": "variants/cdf4b4285b7e1df5736588b488a7dcf8fa0c1575cd370fa9a0434493a2c76b3e/src/fishing-smarts/index.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/fishing-smarts/index.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/fishing-smarts/index.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/fishing-smarts/index.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/research-catalog.test.ts",
+      "sha256": "3c011304e7661102e26575d66355c57b9b1232380bc6d1f8623225a1d8243279",
+      "bytes": 4319,
+      "archivePath": "variants/3c011304e7661102e26575d66355c57b9b1232380bc6d1f8623225a1d8243279/src/fishing-smarts/research-catalog.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/fishing-smarts/research-catalog.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/fishing-smarts/research-catalog.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/fishing-smarts/research-catalog.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json",
+      "sha256": "5e1f450bc74624cb7981410a4a686519a9f1a86178408144a772f1d605a0d6e3",
+      "bytes": 1016080,
+      "archivePath": "variants/5e1f450bc74624cb7981410a4a686519a9f1a86178408144a772f1d605a0d6e3/src/fishing-smarts/generated/research-catalog.v2.json",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1521",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/fishing-smarts/generated/research-catalog.v2.json"
+        }
+      ]
+    },
+    {
+      "relativePath": "SEALED-CANDIDATE-IDENTITY.txt",
+      "sha256": "c8ec09287ebe228b85bb1448fed7fadb64b7b9b703e6ba7829da83131504b86f",
+      "bytes": 145,
+      "archivePath": "variants/c8ec09287ebe228b85bb1448fed7fadb64b7b9b703e6ba7829da83131504b86f/SEALED-CANDIDATE-IDENTITY.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "SEALED-CANDIDATE-IDENTITY.txt"
+        }
+      ]
+    },
+    {
+      "relativePath": "src/telemetry.test.ts",
+      "sha256": "996454cb09a463c56d39c5ab5f29db6a62720734eddb2d9eb506a9993b2a3390",
+      "bytes": 15961,
+      "archivePath": "variants/996454cb09a463c56d39c5ab5f29db6a62720734eddb2d9eb506a9993b2a3390/src/telemetry.test.ts",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1527",
+          "relativePath": "src/telemetry.test.ts"
+        },
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "src/telemetry.test.ts"
+        }
+      ]
+    },
+    {
+      "relativePath": "SEALED-CANDIDATE-IDENTITY.txt",
+      "sha256": "a15de11e9501f89c30355cf5b4330bedd937bfe534d1c45494cfe269a63feeb1",
+      "bytes": 145,
+      "archivePath": "variants/a15de11e9501f89c30355cf5b4330bedd937bfe534d1c45494cfe269a63feeb1/SEALED-CANDIDATE-IDENTITY.txt",
+      "sources": [
+        {
+          "directory": "bay-bite-dashboard-sealed-20260813-1537",
+          "relativePath": "SEALED-CANDIDATE-IDENTITY.txt"
+        }
+      ]
+    }
+  ]
+}

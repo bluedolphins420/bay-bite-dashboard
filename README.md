@@ -2,6 +2,8 @@
 
 Private greater Bay Area shore-fishing decision-support dashboard with a research-backed catalog and truthful cached telemetry states.
 
+See [AGENT_HANDOFF.md](AGENT_HANDOFF.md) for next-agent priorities, verified checks, runtime caveats, and the [historical archive](docs/archive/README.md). Historical work is preserved separately and is not active application code.
+
 ## Current candidate scope
 
 - 101 accepted shore-fishing spots; 30 rejected or pending records remain excluded from the application projection
@@ -18,8 +20,8 @@ Legacy static score, bite-window, bite-reason, and tactics fields remain in the 
 ## Run locally
 
 ```bash
-cd /root/bay-bite-dashboard
-npm install
+# From the root of your checkout:
+npm ci
 npm run dev -- --host 0.0.0.0
 ```
 
@@ -28,14 +30,15 @@ Open: http://localhost:5173/
 ## Deterministic release checks
 
 ```bash
-npm run check:catalog
-npm test
+npm run catalog:check
+npm test -- --testTimeout=30000
 npm run lint
 npm run build
+npm run client:check
 git diff --check
 ```
 
-`npm run check:catalog` verifies the checked-in generated catalog exactly matches the current source records and generator. Regenerate intentionally with `npm run generate:catalog`.
+`npm run catalog:check` verifies the checked-in generated catalog exactly matches the current source records and generator. Regenerate intentionally with `npm run generate:catalog`.
 
 ## Live-data refresh
 
